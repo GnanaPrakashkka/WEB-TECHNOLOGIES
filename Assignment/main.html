@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+<title>
+  Assignment
+</title>
+<link rel="icon" href="devi4.png">
+<link rel="stylesheet" href="gpr.css"> 
+</head>
+<body >
+  <div class="header">
+    <img src="devi2.jpg" width="60px">
+    <h1 class="heading" style="color:white;padding-right:90px">RGUKT NUZVID</h1>
+    <a href="#"><img src="menu.png" width="50px" onclick="changevert();"></a>
+    <div id="vert_nav">
+      <ul>
+        <li><a  href="main.html" ><img src="home.png" width="40px" height="40px"></a></li>
+        <li><a href="registration form.html" target="fb"><img src="exam.png" width="40px" height="40px"></a></li>
+        <li><a href="#"><img src="settings.png" width="40px" height="40px"></a></li>
+        <li><a href="phone.html"><img src="call.png" width="40px" height="40px"></a></li></ul>
+    </div>
+  </div>
+
+  <div class="menu__bar" id="menubar">
+        <ul>
+      <li><a  href="main.html" ><img src="home.png" width="40px" height="40px"></a></li>
+      <li><a href="registration form.html" target="fb"><img src="exam.png" width="40px" height="40px"></a></li>
+      <li><a href="#"><img src="settings.png" width="40px" height="40px"></a>
+        <div class="dropdown_menu">
+          <ul>
+            <li ><a  href="#">CSE</a>
+              <div class="dropdown_menu-1">
+                <ul>
+                  <li><a  href="login.html" target="fb">FACULTY</a></li>
+                  <li><a href="login.html" target="fb">STUDENT</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a  href="#">ECE</a>
+              
+            </li>
+            <li><a href="#">MECH</a>
+              
+            </li>
+            </ul>
+        </div>
+      </li>
+
+      <li><a href="phone.html" target="fb"><img src="call.png" width="40px" height="40px"></a></li>
+    </ul>
+  </div>
+  <iframe src="home.html" name="fb">
+  </iframe>
+  <footer id="main-footer">
+    <p><small>&nbsp;&nbsp;Copyright &copy; 2021-2022 RGUKT Nuzvid. All rights reserved.</small></p>
+    <div class="foot">view count:
+<a href="https://www.freecounterstat.com" title="web counter widget"><img src="https://counter9.stat.ovh/private/freecounterstat.php?c=hwafr9gf68q223tgn2a6des4zcbcsf8z" border="0" title="web counter widget" alt="web counter widget"></a>
+   </div>
+    </footer>
+
+
+    <script>
+      function changevert(){
+        if(document.getElementById("vert_nav").style.visibility=="hidden"){
+          document.getElementById("vert_nav").style.visibility="visible";
+          document.getElementById("menubar").style.display="none";
+        }
+        else{
+          document.getElementById("vert_nav").style.visibility="hidden"; 
+            document.getElementById("menubar").style.display="flex";
+        }
+      }
+    </script>
+</body>
+</html>

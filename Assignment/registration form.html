@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+
+<style>
+
+div{
+background-color:#dfe3ee;
+width: 900px;
+}
+#heading{
+background-color:#3b5998;
+color:white;
+height:100px;
+}
+
+#first{
+width:310px;
+height:35px;
+position:relative;
+left:93px;
+}
+#middle{
+width:310px;
+height:35px;
+position:relative;
+left:93px;
+}
+#last{
+width:310px;
+height:35px;
+position:relative;
+left:93px;
+}
+#f1{
+display:inline;
+position:relative;
+left:100px;
+font-family:Helvetica;
+visibility:hidden;
+}
+#f2{
+display:inline;
+position:relative;
+left:100px;
+font-family:Helvetica;
+visibility:hidden;
+}
+#f3{
+display:inline;
+position:relative;
+left:100px;
+font-family:Helvetica;
+visibility:hidden;
+}
+#list1{
+position:relative;
+left:49px;
+width:52px;
+height:35px;
+}
+#mobile{
+position:relative;
+left:52px;	
+width:260px;
+height:35px;
+}
+#num{
+display:inline;
+position:relative;
+left:80px;
+font-family:Helvetica;
+visibility:hidden;
+}
+
+#email{
+width:310px;
+height:35px;
+}
+#password{
+width:310px;
+height:35px;
+position:relative;
+left:20px;
+}
+#hobbyerror{
+display:inline;
+position:relative;
+left:150px;
+visibility:hidden;
+}
+#hobbies{
+display:inline;
+font-family:helvetica;
+position:relative;
+}
+
+#pic{
+display:inline;
+position:relative;
+left:45px;
+text-decoration:bold;
+font-family:Helvetica;
+}
+#image{
+position:relative;
+left:45px;
+}
+
+#submit {
+  width: 140px;
+  height: 45px;
+  font-family: helvetica;
+ font-weight:bold;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: white;
+  background-color: #56953e;
+  border: none;
+ border-radius:20px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+#birth{
+display:inline;
+position:relative;
+right:46px;	
+font-family:helvetica;
+}
+#submit1 {
+  width: 140px;
+  height: 45px;
+  font-family: helvetica;
+ font-weight:bold;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: white;
+  background-color: #56953e;
+  border: none;
+ border-radius:20px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+#submit:hover {
+  background-color:#56953e ;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+#submit1:hover {
+  background-color:#56953e ;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+#date{
+position:relative;
+right:40px;	
+}
+#addr{
+position:relative;
+right:123px;
+display:inline;
+font-family:Helvetica;
+}
+#address{
+position:relative;
+}
+.hobby{
+display:inline;
+font-family:helvetica;
+}
+#age{
+width:20px;
+position:relative;
+right:30px;
+}
+.age{
+display:inline;
+font-family:helvetica;
+position:relative;
+right:30px;
+}
+
+#eye{
+position:relative;
+left:20px;
+top:5px;
+}
+
+.add_btn{
+  color: white;
+  background-color: #3b5998 ;
+  border: none;  
+  font-weight: bold;
+}
+.add_btn:hover{
+  background-color:#56953e;
+}
+.hobbies_class{
+  width: 250px;
+  height: 35px;
+  position: relative;
+  left: 1.5px;
+  text-align: center;
+  Font-weight: bold;
+  font-size: 15px;
+}
+.remove_btn{
+  width: 70px;
+  height: 35px;
+  position: relative;
+  left: 3px;
+  background-color: #3b5998;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+.remove_btn:hover{
+  background-color:#7E3517 ;
+}
+
+</style>
+<script>
+function calculate_age() { 
+  var userinput = document.getElementById("date").value;  
+    var dob = new Date(userinput);  
+ var month_diff = Date.now() - dob.getTime();  
+      
+    //convert the calculated difference in date format  
+    var age_dt = new Date(month_diff);   
+      
+    //extract year from date      
+    var year = age_dt.getUTCFullYear();  
+      
+    //now calculate the age of the user  
+    var age = Math.abs(year - 1970);  
+      
+      document.getElementById("age").value= age;
+}
+
+function getDate(){
+    var date = new Date();
+var currentDate = date.toISOString().slice(0,10);
+document.getElementById("date").value= currentDate;
+}
+function validate()
+{
+  var fname=document.getElementById("first").value;
+var mname=document.getElementById("middle").value;
+var fexp=/^[a-z,A-Z]+$/gi
+if(fexp.test(fname)==false){
+document.getElementById("first").style.border="2px solid red";
+document.getElementById("f1").style.visibility="visible";
+const myTimeout = setTimeout(myGreeting, 5000);
+return false;
+}
+}
+function firstname(){
+var k=document.getElementById("first").value;
+var fexp=/^[a-z,A-Z]+$/gi
+if(fexp.test(k)==false){
+document.getElementById("first").style.border="2px solid red";
+document.getElementById("f1").style.visibility="visible";}
+else{
+document.getElementById("f1").style.visibility="hidden";
+document.getElementById("first").style.border="1px solid black";
+}
+}
+function middlename(){
+   var k=document.getElementById("middle").value;
+var fexp=/^[a-z,A-Z]+$/gi
+if(fexp.test(k)==false){
+document.getElementById("middle").style.border="2px solid red";
+document.getElementById("f3").style.visibility="visible";
+}
+else{
+document.getElementById("f3").style.visibility="hidden";
+document.getElementById("middle").style.border="1px solid black";
+}
+}
+
+function lastname(){
+   var k=document.getElementById("last").value;
+var fexp=/^[a-z,A-Z]+$/gi
+if(fexp.test(k)==false){
+document.getElementById("last").style.border="2px solid red";
+document.getElementById("f2").style.visibility="visible";
+}
+else{
+document.getElementById("f2").style.visibility="hidden";
+document.getElementById("last").style.border="1px solid black";
+}
+}
+
+function number()
+{
+var k=document.getElementById("list1").value;
+var number=document.getElementById("mobile").value;
+if(k=="India"){
+var s=/^[0-9]{10}$/gi;
+if(s.test(number)==false){
+document.getElementById("mobile").style.border="2px solid red";
+document.getElementById("num").style.visibility="visible";
+}
+else{
+document.getElementById("mobile").style.border="1px solid black";
+document.getElementById("num").style.visibility="hidden";
+}
+}
+else{
+var s1=/^[0-9]{3}-[0-9]{3}-[0-9]{4}$/;
+if(s1.test(number)==false){
+document.getElementById("mobile").style.border="2px solid red";
+document.getElementById("num").style.visibility="visible";
+}
+else{
+document.getElementById("mobile").style.border="1px solid black";
+document.getElementById("num").style.visibility="hidden";
+}
+}
+}
+
+function addresscheck(){
+var j=document.getElementById("address").value;
+var withNoDigits = j.replace(/[0-9]/g, '');
+document.getElementById("address").value=withNoDigits;
+}
+
+function change(){
+var k=document.getElementById("password").type;
+if(k=="text"){
+document.getElementById("password").type="password";
+document.getElementById("eye").src="eyeclose.png";
+document.getElementById("eye").style.height="30px";
+document.getElementById("eye").style.width="30px";
+}
+else{
+document.getElementById("password").type="text";
+document.getElementById("eye").src="eyeopen.png";
+document.getElementById("eye").style.height="30px";
+document.getElementById("eye").style.width="30px";
+}
+}
+function validate(){
+var k=confirm("Are you sure u want to submit the form?");
+if(k==false)
+{
+return false;
+}
+ if(document.getElementById("mobile").style.border=="2px solid red" || document.getElementById("first").style.border=="2px solid red" ||  document.getElementById("middle").style.border=="2px solid red" || 
+document.getElementById("last").style.border=="2px solid red" ||  document.getElementById("mobile").style.border=="2px solid red" ){
+return false;
+}
+}
+</script>
+</head>
+<body>
+<center>
+<div >
+			<h1 id="heading"><br>Registration Form</h1>
+       <form action="/jk.php" action="/gpr.php" onSubmit="return validate();">
+        	
+ <input type="text"  name="n" id="first" placeholder="First name" minlength="3" required onchange="firstname();"> <p id="f1">contains illegal Characters</p><br><br>
+
+ <input type="text"  name="n"id="middle" placeholder="Middle name" onchange="middlename();"><p id="f3">contains illegal Characters</p><br><br>
+
+ <input type="text" id ="last" placeholder="Last name" minlength="3" onchange="lastname();" required><p id="f2">contains illegal Characters</p><br><br>
+
+ <input type="email"  placeholder="Email " id="email"  required><br><br>
+
+
+
+ <select name="list" id="list1">
+               	   <option value="India" >India</option>
+               	   <option value="USA">USA</option>
+</select><input type="text" placeholder="Mobile number"id="mobile" onchange="number();" required><p id="num">Invalid number</p> <br><br> 
+
+
+<input type="password" name="p"placeholder="New password" id="password" name="" required minlength="6"> 
+<img src="eyeclose.png" width="30px" height="30px"  id="eye">
+<br> <br>
+
+
+
+ <div class="form-control" id="hob_form" style="width: 100%;">
+                    <label style="font-weight:bold;font-size:25px;padding-right:40px;">Hobbies</label>
+                    <div class="hobbies" id="hob_block">
+                        <input type="text" class="hobbies_input" id="hobbies" style="width:250px;position:relative;left: 5px;
+height:35px;font-weight:bold;font-size:15px;">
+                        <input type="button" class="add_btn" value="Add" onclick="addhobbies()" style="position:relative;padding-left: 10px;height:35px;width:70px;left:3px;">
+                    </div>
+                    <br>
+                    <!--<div class="msg" id="hobbiesmsg"> wfef6</div>-->
+                </div>
+
+
+
+<br>
+<p id="pic"><b>Upload your photo</b></p> <input type="file" name="" accept="image/*" id="image" onchange="Filevalidation();" style="color: red;">  <br><br>        
+<p id="birth"><b>Birthday</b></p> <input type="date" name="date" name="trip-start"  id="date" onChange="calculate_age()" required> <p class="age"><b>Age</b></p><input type="text"   id="age"  value="0" > <br> <br>
+<p id="addr"><b>Address</b></p><br> <textarea rows="8" cols="42" id="address"  onchange="addresscheck();"></textarea>
+                                            <br><br>
+                 <input type="submit" value="Register" name="s1" id="submit">      <input type="button" value="clear the form" id="submit1" name="" onclick="window.location.reload();">
+     <br><br>
+        </form>
+        </div>
+        <br><br><br><br><br>
+        </center>
+    <script>
+var c=document.getElementById("eye");
+	c.addEventListener("click",change);
+
+function Filevalidation()
+{
+var k=document.getElementById("image");
+var size=(k.files[0].size)/1024;
+if(size>50){
+alert("File size is huge");
+document.getElementById("image").value="";
+}
+}
+
+
+function addhobbies(){
+
+  var hob=document.getElementById("hobbies");
+  var form=document.getElementById("hob_form");
+  if(hob.value!=""){
+                var formele=document.createElement("div")
+                formele.setAttribute("class","hobbiess");
+                form.appendChild(formele);
+
+                var ele=document.createElement("input");
+                var btn=document.createElement("input");
+                btn.setAttribute("type","button")
+                ele.setAttribute("type","text")
+                ele.setAttribute("class","hobbies_class");
+                ele.setAttribute("value",hob.value);
+                ele.readOnly=true;
+                btn.setAttribute("class","remove_btn");
+                btn.setAttribute("value","Remove");
+                console.log(btn);
+                 formele.append(ele);
+                formele.append(btn);
+                hob.value="";
+}
+}
+ var a=document.getElementById("hob_form");
+        a.addEventListener("click",remove,false);
+        function remove(e){
+            if(e.target.classList.contains('remove_btn')){
+                if (confirm("Are you sure  want to delete?")){
+                    var li=e.target.parentElement;
+                    a.removeChild(li);
+                    hoberror=hoberror-1;
+                }
+            }
+        }
+
+</script>
+</body>
+</html>
