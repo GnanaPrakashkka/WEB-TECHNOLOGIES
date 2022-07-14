@@ -78,24 +78,24 @@
 		</div>
 		<div style="width:33.5%;float:right;background-color: whitesmoke;box-shadow: 2.5px 0px 0px #b4b5c9;">
 
-			<button class="rightbut" id="b1" onclick="change(1);" ><img src="button.PNG" width="100%"></button>
+			<button class="rightbut" id="b1" onclick="change(1);" ><img src="button.png" width="100%"></button>
 			
-<button class="rightbut" id="b2" onclick="change(2);"><img src="button.PNG" width="100%"></button>
+<button class="rightbut" id="b2" onclick="change(2);"><img src="button.png" width="100%"></button>
 
-<button class="rightbut" id="b3" onclick="change(3);"><img src="button.PNG" width="100%"></button>
+<button class="rightbut" id="b3" onclick="change(3);"><img src="button.png" width="100%"></button>
 
-<button class="rightbut" id="b4" onclick="change(4);"><img src="button.PNG" width="100%" ></button>
+<button class="rightbut" id="b4" onclick="change(4);"><img src="button.png" width="100%" ></button>
 
-<button class="rightbut" id="b5" onclick="change(5);"><img src="button.PNG" width="100%" ></button>
+<button class="rightbut" id="b5" onclick="change(5);"><img src="button.png" width="100%" ></button>
 
-<button class="rightbut" id="b6" onclick="change(6);"><img src="button.PNG" width="100%" ></button>
+<button class="rightbut" id="b6" onclick="change(6);"><img src="button.png" width="100%" ></button>
 
-<button class="rightbut" id="b7" onclick="change(7);"><img src="button.PNG" width="100%" ></button>
+<button class="rightbut" id="b7" onclick="change(7);"><img src="button.png" width="100%" ></button>
 
-<button class="rightbut" id="b8" onclick="change(8);"><img src="button.PNG" width="100%" ></button>
+<button class="rightbut" id="b8" onclick="change(8);"><img src="button.png" width="100%" ></button>
 			
-<button class="rightbut" style="background-color:#b4b5c9;background-image: none;border-bottom:2px solid black; height:40px;"><img src="button1.PNG" width="100%"></button>
-<button class="rightbut" style="background-color:#b4b5c9;background-image: none;border-bottom:2px solid black; height:40px;"><img src="button1.PNG" width="100%"></button>
+<button class="rightbut" style="background-color:#b4b5c9;background-image: none;border-bottom:2px solid black; height:40px;"><img src="button1.png" width="100%"></button>
+<button class="rightbut" style="background-color:#b4b5c9;background-image: none;border-bottom:2px solid black; height:40px;"><img src="button1.png" width="100%"></button>
 
 		</div>
 		
@@ -129,12 +129,12 @@
 
 <button style="position:relative;top:135px;right:20px;width:30px;background-color:#8f90ae;box-shadow: 2px 2px 2px #8f90ae	;border-color:#8f90ae;" onclick="closeWindow();"><span style="font-size: 20px;color:white;" id="into4">&#x2716;</button>
 
-<button style="position:relative;top:135px;left: 250px;width:30px;background-color:#8f90ae;box-shadow: 2px 2px 2px #8f90ae	;border-color:#8f90ae;"><span style="font-size: 20px;color:white;" id="left5">&#x2192;</span></button>
+<button style="position:relative;top:135px;left: 250px;width:30px;background-color:#8f90ae;box-shadow: 2px 2px 2px #8f90ae	;border-color:#8f90ae;" onclick="findVotes(1);"><span style="font-size: 20px;color:white;" id="left5">&#x2192;</span></button>
 
-<button style="position:relative;top:135px;left: 178px;width:30px;background-color:#8f90ae;box-shadow: 2px 2px 2px #8f90ae	;border-color:#8f90ae;"><span style="font-size: 20px;color:white;" id="right6">&#x2190;</span></button>
+<button style="position:relative;top:135px;left: 178px;width:30px;background-color:#8f90ae;box-shadow: 2px 2px 2px #8f90ae	;border-color:#8f90ae;" onclick="findVotes(2);"> <span style="font-size: 20px;color:white;" id="right6">&#x2190;</span></button>
 
 
-<button style="width:30px;background-color:#b4b5c9;border-color:#b4b5c9;position: relative;left:185px;" > <img src="greenpower.PNG" width="20px" height="25px" style="box-shadow: 0px 0px 0px #b4b5c9;border-color:#b4b5c9;" id="powerlight"></button>
+<button style="width:30px;background-color:#b4b5c9;border-color:#b4b5c9;position: relative;left:185px;" > <img src="greenpower.png" width="20px" height="25px" style="box-shadow: 0px 0px 0px #b4b5c9;border-color:#b4b5c9;" id="powerlight"></button>
 	
 	</div>
 
@@ -153,6 +153,7 @@
 		var cpm=0;
 		var trs=0;
 		var prp=0;
+		var index=1;
 		function change(i){
 			var buttonName="b"+i;
 			var images=["#","congress.jpg","bjp.jpg","tdp.jpg","ysrcongress.jpg","loksatha.jpg","cpm.jpg","trs.jpg","prp.jpg"];
@@ -200,7 +201,7 @@
 
 		if(document.getElementById("left-box").style.visibility=="hidden"){
 		document.getElementById("left-box").style.visibility="visible";
-		document.getElementById("powerlight").src="greenpower.PNG";
+		document.getElementById("powerlight").src="greenpower.png";
 		var images=["#","congress.jpg","bjp.jpg","tdp.jpg","ysrcongress.jpg","loksatha.jpg","cpm.jpg","trs.jpg","prp.jpg"];
 		for(let k=1;k<9;k++){
 			
@@ -215,7 +216,7 @@
 	}
 		else{
 			document.getElementById("left-box").style.visibility="hidden";
-			document.getElementById("powerlight").src="redpower.PNG";
+			document.getElementById("powerlight").src="redpower.png";
 			var images=["#","congress.jpg","bjp.jpg","tdp.jpg","ysrcongress.jpg","loksatha.jpg","cpm.jpg","trs.jpg","prp.jpg"];
 			// var index;
 			for(let k=1;k<9;k++){
@@ -288,6 +289,7 @@ var images=["#","congress.jpg","bjp.jpg","tdp.jpg","ysrcongress.jpg","loksatha.j
 	}
 
 			function counting(){
+				totalvotes=congress+ysrcongress+trs+prp+bjp+cpm+tdp+loksatha;
 				alert("Total number of votes polled = "+totalvotes);
 			}
 
@@ -303,12 +305,58 @@ function openWindow() {
   newWindow.document.write("<br>4.PRP = "+ prp ); 
   newWindow.document.write("<br>5.BJP = "+ bjp ); 
   newWindow.document.write("<br>6.CPM = "+ cpm ); 
-  newWindow.document.write("<br>7.TDP= "+ tdp ); 
+  newWindow.document.write("<br>7.TDP= "+ tdp );
+  newWindow.document.write("<br>8.loksatha= "+ loksatha);  
 }  
   
 function closeWindow() {  
   newWindow.close();  
 }  
+function findVotes(i){
+	if(i==1){
+		if(index==1){
+			index=8;
+		}
+		else{
+			index-=1;
+		}
+	}
+	if(i==2){
+		if(index==8){
+			index=1;
+		}
+		else{
+			index+=1;
+		}
+	}
+
+	if(index==1){
+		alert("Votes of congress = "+congress );
+	}
+	else if(index==2){
+		alert("Votes ysrcongress got = "+ysrcongress);
+	}
+	else if(index==3){
+		alert("Votes TRS  got= "+trs);
+	}
+	else if(index==4){
+		alert("Votes PRP got = "+prp);
+	}
+	else if(index==5){
+		alert("Votes  BJP got = "+bjp);
+	}
+	else if(index==6){
+		alert("Votes CPM  got = "+cpm);
+	}
+	else if(index==7){
+		alert("Votes TDP got = "+tdp);
+	}
+	else if(index==8){
+		alert("Votes loksatha got = "+loksatha);
+	}
+	else{console.log("ok");
+}
+}
 
 	</script>
 	
