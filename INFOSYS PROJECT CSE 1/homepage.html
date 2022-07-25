@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta charset="UTF-8">
+	<style type="text/css">
+		p {
+    
+   
+    padding : 2px;
+    margin : 0;
+    
+}
+.link{
+	border-radius: 10px;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	padding: 15px 30px;
+	font-size: 18px;
+	text-decoration: none;
+}
+.link:hover{
+	background-color: #9338c3;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: #b8b8b8;
+  font-family: 'roboto', Arial, sans-serif;
+  text-align: center;
+  background-color:#000000;
+  height: 27px;
+}
+#feed{
+	display: none;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+
+// $(document).ready(function(){
+   
+//    $('#content').load("feedback.html");
+
+// });
+</script>
+	</head>
+	<body>
+
+		<h1 style="margin:0;width:100%;background-color:#5e1f89;height:100%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="infosysheading.PNG" width="230px" height="50px"></h1>
+		<div style="height:100%;width:100%"><div>
+		<center><figure>
+			<img src="gate1.PNG" width="400px">
+			 <figcaption style="color:
+#9338c3;font-weight:bold;font-family:arial;font-size:20px;">Data Privacy Declaration Permission Declined</figcaption>
+		</figure>
+		</center>
+	<p style="font-family:arial;"><font color="#9338c3">></font>You have declined the Data Privacy Declaration for this survey.
+</p><p style="font-family:arial;"><font color="#9338c3">></font>
+It is mandatory to accept the Data Privacy Declaration in order to take this survey.
+</p><p style="font-family:arial;"><font color="#9338c3">></font>
+Please read and accept the Data Privacy Declaration to submit your response..
+</p><br><br>
+<a href="acceptpdf.html" class="link">Take Survey</a>
+<a href="#" class="link">Contact Support</a>
+
+	</div>
+	<button style="float:right;position:absolute;top:250px;right:0px;border:1px solid white;" onclick="displaying();"> <img src="feedback.PNG" ></button>
+
+	<div style="z-index:1000;position:absolute;width:40%;bottom:20%;left: 35%;height:100%;display:none;opacity:1;background-color:white;" id="feed">
+	
+	<button style="font-size:40px;position:absolute;right:3%;" onclick="closing();">&times;</button>
+	
+	<iframe src="feedback.html" id="feed1" style="width:100%;height:100%;opacity:1;z-index:1000;background-color:white;"></iframe></iframe>
+</div>
+
+	<br><br><br>
+	<div class="footer">
+                <p style="float:left;"><a href="#" style="color: #b8b8b8;
+  font-family: 'roboto', Arial, sans-serif;text-decoration: none;">Copyright&nbsp;&copy;&nbsp;2021 Infosys Limited</a><p style="float:right;">
+  	<a href="#" style="color: #b8b8b8;
+  font-family: 'roboto', Arial, sans-serif;text-decoration:none;padding-right:30px;">Terms and Conditions</a></p></p>
+              </div>
+</div>
+<script>
+	function displaying(){
+		if(document.querySelector("#feed").style.display=="none")
+		{
+			document.querySelector("#feed").style.display="block";
+		document.querySelector("#feed1").setAttribute("src","feedback.html");}
+		else
+			document.querySelector("#feed").style.display="none";
+	}
+
+	
+
+	function closing(){
+document.querySelector("#feed").style.display="none";
+	}
+	</script>
+	</body>
+</html>

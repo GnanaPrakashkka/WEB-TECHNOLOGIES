@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style tyep="text/css">
+		*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+	
+	background-color: white;
+}
+p{
+	font-family: Roboto, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 14px;
+	font-weight: bold;
+}
+input[type=text]{
+	border: none;
+	border-bottom: 1px solid black;
+	height: 18px;
+	width: 100%;
+	font-size: 18px;
+	}
+input[type=text]:focus{
+	border: none;
+	border-bottom: 1px solid black;
+	outline: none;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: font-family: Roboto, Arial, Helvetica, sans-serif;;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#foot{
+	font-weight: 700;
+	font-family: "Roboto";
+	font-size: 12px;
+	line-height: 13px;
+}
+#foot{
+	background-color: #f4f0ec;
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	bottom: 0px;
+}
+#foot{
+	padding: 0px;
+}
+#progress{
+	margin-left: 11%;
+	margin-top: 20px;
+	/*border: 1px solid ;*/
+	padding: 0px;
+	width: 20%;
+}
+#pbar{
+	margin-top: 4px;
+	margin-left: 10px;
+	width:110px;
+	background-color: #e0e0e0;
+	height: 4px;
+	border-radius: 15px;
+}
+#myBar{
+	border-radius:15px;
+	height:4px;
+	background-color: #8626c3;
+	
+}
+#Esttime{
+	position: absolute;
+	left: 50%;
+	
+}
+#footnext button{
+	position: absolute;
+	top: 15px;
+	right: 12%;
+	background-color: black;
+	color: white;
+	font-family: "roboto";
+	font-size: 12px;
+	font-weight: 900;
+	height: 20px;
+	width: 130px;
+	border-radius: 5px;
+}
+
+
+#gobutton a{
+	background-color: black;
+	color: white;
+	font-family: "roboto";
+	font-size: 14px;
+	font-weight: 500;
+	height: 30px;
+	width: 180px;
+	border-radius: 5px;	
+	margin-left:15px;
+	padding: 6px 60px;
+	text-decoration: none;
+}
+#gobutton{
+	width: max-content;
+	margin-left: 32%;
+	margin-bottom: 30px;
+	margin-top: 40px;
+}
+#gobutton button:hover{
+	box-shadow: 2px 2px 6px 0px #666666;
+}
+
+
+	</style>
+
+
+</head>
+<body style="background-color: #cfe2f3;height:max-content;">
+<header>
+	<img src="name.png" width="120px;" height="100px;" style="margin-left:40%">
+</header>
+<div>
+	<h4 style="padding-left:20%;padding-bottom:5px;">Infosys Limited Recruitment</h4>
+	<p style="padding-left:20%;padding-bottom:5px;">Electronics city,Hosur Road,Bangalore-560100,India</p>
+	<h3 style="padding-left:20%;padding-bottom:5px;">APPLICATION FOR EMPLOYMENT</h3>
+	<p style="padding-left:20%;padding-bottom:5px;">DECLARATION</p>
+</div>
+<div style="background-color:white;width:60%;margin-left:20%;padding:10px;"> <p style="font-weight:bold;font-size:20px;">1.</p>
+<p style="font-weight:bold;padding-left:7%;">I authorize Infosys to conduct investigations to verify the facts of all statements made in this application and my supporting documents. I authorize Infosys to secure information about my experience from former employers, educational institutions, government establishments/agencies or any references I have provided and for those parties to provide information concerning my qualifications for employment and I hereby release all parties from any liability arising from such investigation. <br>
+	I certify that the academic marks/CGPA are the simple average of all subjects/semesters/years including electives, optional subjects additional subjects, practicals, and languages. 
+	<br>I understand that if I am employed with any company, any false statement, misrepresentation, or omission of facts on this application or on any supporting documents, regardless of when discovered if found to be false, may result in my immediate dismissal. The company will have the right to withdraw my letter of appointment or to terminate my training/subsequent appointment at any time without notice or compensation.
+	<br>I agree that I have read, understand and agree to the foregoing and to the best of my knowledge and belief; the information on the application form is true and correct. 
+</p><br>
+<input type="checkbox" id="agree" onclick="showing();"><p id="agre" style="padding-left:15px;display:inline;font-size:11px;font-weight:bold">I Agree</p>
+</div>
+
+
+<div style="background-color:white;width:60%;margin-left:20%;padding:10px;margin-top:10px;display:none;"id="devi"> <p style="font-weight:bold;font-size:13px;">2.&nbsp;Digital Signature</p>
+	<input type="text" disabled><br><br>
+	<p style="font-size:15px;padding-left:2%"> Date and Time</p>
+	<p style="color:#d0d0d0;">&nbsp;&nbsp;These information are pre filled from your browser</p><br>
+	<input type="text" id="gpr" readonly required><br><br>
+	<h3 style="font-weight: bold;">&nbsp;&nbsp;Place
+	</h3>
+	<p style="color:#d0d0d0;" >Please do not key in any personally identifiable belonging to you or any other person(s) which is unrelated to the business purpose of this survey</p>
+	<br>
+	<input type="text" placeholder="*"><img src="location.PNG" style="position:relative;left:700px;bottom:45px;">
+	<h3 style="font-weight: bold;">&nbsp;&nbsp;Enter your full name
+	</h3>
+	<p style="color:#d0d0d0;" >Please do not key in any personally identifiable belonging to you or any other person(s) which is unrelated to the business purpose of this survey</p><br>
+	<input type="text" placeholder="*">
+</div>
+	<div style="background-color:white;width:60%;margin-left:20%;padding:10px;margin-top:10px;">
+		<div style="background-color: red;height:30px;width:103%;color:white;margin:0px;position:relative;bottom:10px;right:10px;" id="warn"> &#9888; &nbsp;Please validate using the captha </div>
+		<h3>3.Validate Captha</h3>
+		<p style="color:#d0d0d0;"> Please wait for a few seconds to kind the captha</p>
+		<img src="robostart.PNG" height="60px" width="250px" onclick="captha();" id="cap">
+
+</div>
+<div id="gobutton">
+        	<a href="form.html">PREVIOUS PAGE</a>
+        	<a href="last.html" id="sunilgo" onclick="sunilgofun();">SUBMIT</a>
+
+        </div>
+<br><br><br><br>
+	<footer>
+		<div id="foot">
+			<div id="progress" style="display:flex;flex-direction: row;">
+				<div id="pcount"><span id="varNum">14</span><span> of 97 answered</span></div>
+				<div id="pbar">
+					<div id="myBar" style="width:14%"></div>
+				</div>
+			<div>
+			<div id="Esttime">Estimated Time : 29 mins</div>
+			<div id="footnext"><button onclick="validate()">NEXT PAGE</button></div>
+		</div>
+	</footer>
+
+
+
+	<script>
+		var k=new Date();
+		document.getElementById("gpr").value=k;
+		function captha(){
+	
+			var k=document.getElementById("cap").getAttribute("src");
+			if(k=="robostart.PNG"){
+				document.getElementById("warn").style.display="none";
+				document.getElementById("cap").setAttribute("src","robo.gif");
+				document.getElementById("cap").setAttribute("height","120px");
+			setTimeout(function(){document.getElementById("cap").setAttribute("src","roboend.PNG");
+		document.getElementById("cap").setAttribute("height","60px");},4800);
+			}
+
+		}
+function showing(){
+
+if(document.getElementById("agree").checked){
+	document.getElementById("devi").style.display="block";
+}
+else{
+	document.getElementById("devi").style.display="none";
+}
+}
+	</script>
+</body>
+</html>

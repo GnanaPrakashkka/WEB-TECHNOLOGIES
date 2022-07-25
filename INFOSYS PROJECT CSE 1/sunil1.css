@@ -1,0 +1,2879 @@
+body{
+	margin: 0px;
+	background-color: #cfe2f3;
+	/*font-family: "Roboto",sans-serif;*/
+}
+#header{
+	margin: 0px;
+	width: 100%;
+	height: 110px;
+	background-color: #fff;
+	box-shadow: 0px 6px 4px #c1d2e2;
+	position: relative;
+}
+#headerImg{
+	position: absolute;
+	top: 20px;
+	left: 44.8%;
+	height: 80px;
+	width: 158px;
+}
+#info{
+	width: max-content;
+	margin-top: 9.5px;
+	margin-left: 8.5%;
+	padding: 0px;
+	/*font-family: "Roboto",sans-serif;*/
+	/*border: 1px solid;*/
+}
+#info div{
+	
+}
+#info1,#info3{
+	line-height: 19px !important;
+	font-size: 19px;
+	font-style: normal;
+}
+#info1{
+	font-family: "Roboto";
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+#info3{
+	letter-spacing: 0.3px;
+	/*word-spacing: 0.4px;*/
+	margin-top: -3px;
+
+	margin-bottom: 14px;
+	font-weight: 700;
+	font-family: "Roboto";
+}
+#info2,#info4{
+	margin-bottom:13px;
+	line-height: 18px;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: "Roboto";
+}
+
+#allPerc{
+	margin-left: 9.62%;
+	margin-top: 35.1px;
+	background-color: #fff6d5;
+	padding-top: 16px ;
+	padding-left: 32px;
+	padding-bottom: 17px;
+	height: max-content;
+	width: 80.7%;
+	border-radius: 15px;
+	box-sizing:border-box ;
+	letter-spacing: 0.11px;
+}
+#allPerc p{
+	width: 92%;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 400;
+	font-family: "Roboto";
+}
+#allPerc p span{
+	font-weight: bold;
+}
+#SSLC,#post,#backlogs,#gaps{
+	width: 83%;
+	background-color: #fff;
+	height: max-content;
+	margin-left: 8.5%;
+	margin-top: 49px;
+	box-shadow: 0px 0px 2px 3.5px #c1d2e2;
+}
+
+.headOfDiv{
+	/*border: 1px solid;*/
+	padding: 16px 0px 0px 31.6px;
+	font-family: "Roboto";
+	font-weight: 700;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 16px;
+	display: flex;
+}
+.headOfDiv div{
+	/*border: 1px solid;*/
+
+}
+.h{
+	margin-left: 10.5px;
+	letter-spacing: 0.1px;
+}
+#post .headOfDiv #h{
+	margin-left: 10.5px;
+	letter-spacing: 0.1px;
+} 
+.opt{
+	color: #a0a0a0;
+	font-size: 13px;
+	font-family: "Roboto";
+	font-weight: 400;
+	line-height: 13px;
+	letter-spacing: 0.1px;
+}
+#degree{
+	border-top: 0.2px solid #e0e0e0;
+	margin: 16px auto;
+	/*height: 136px; */         /*JS*/
+	height: 130px;              /*Errorfree height*/
+}
+#school,#board,#grade,#passing,#postpassing,#postgrade,#backYESNO,#gapsYESNO{
+	margin: 16px auto;
+	height: max-content;
+	margin-bottom: 30px;
+}
+#passing,#postpassing{
+	padding-bottom: 30px;
+}
+#errorDEGREE{
+	position: absolute;
+	top: 130px;
+	left: 25px;
+}
+#errorDEGREE img{
+	/*border: 1px solid;*/
+	margin-top: -1.2px;
+	margin-left: 2.5px;
+}
+#errorDEGREE{
+	/*border: 1px solid ;*/
+	margin-top: -25px;
+	margin-left: 4px;
+	letter-spacing: 0.1px;
+	/*display: flex;*/
+	display: none;
+}
+#errorDEGREE label{
+	font-family:"Roboto" ;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 400;
+	color: #de350b;
+	margin-left: -4.5px;
+	margin-top: -0.1px;
+}
+.inpDiv{
+	
+	width: 97%;
+	border-bottom: 0.2px solid #e0e0e0;
+	border-left: none;
+	border-right: none;
+	padding-bottom: -10px;
+	position: relative;
+}
+
+.inpname{
+	font-weight: 700;
+	font-family: "Roboto";
+	font-size: 16px;
+	line-height: 16px;
+	width: max-content;
+	
+}
+#degName{
+	position: absolute;
+	top: 15px;
+	left: 33px;
+}
+/*#schName,#gradeName,#passingName,#postDegreeName,#postInstName,#postUnivName*/
+.inpname{
+	margin-top: 15px;
+	margin-left: 33px;
+}
+#schPara{
+	color: #d2d2d2;
+	margin-left: 33px;
+	margin-top: 10px;
+	font-size: 13px;
+	font-family: "Roboto";
+	font-weight: 400;
+	line-height: 13px;
+	letter-spacing: 0.1px;
+}
+.inpSchool,#inpchai{
+	margin-top: 30px;
+	margin-bottom: 38px;
+}
+.inpGrade,#inpPostGrade{
+	margin-top: 30px;
+	margin-bottom: 38px;
+}
+.inpPassing,#inpPostPassing,.inpPassingGrad{
+	margin-top: 30px;
+	margin-bottom: 38px;	
+}
+#schDiv{
+	/*width: 92%;
+	margin-top: 47px;
+	margin-left: 15px;
+	height: 35px;
+	position: relative;*/
+}
+#schDiv label,#gradeDiv label,#passingDiv label,#postgradeDiv label,#postpassingDiv label,#passingDivGrad label{
+	position: relative;
+	right: 92.1%;
+
+}
+#chai1{
+	display: none;
+}
+#chai2{
+	display: none;
+}
+#chai1 label,#chai2 label{
+	position: relative;
+	right: 97%;
+}
+input[type=text],input[type=number],input[type=date]{
+	border: none;
+	border-bottom: 1px solid #949494;
+	width: 92%;
+	margin-left: 15px;
+	font-size: 16px;
+	height: 40px;
+	padding-left: 20px;
+
+}
+
+
+#selectDiv{
+	width: 97.2%;
+	margin-top: 47px;
+	margin-left: 15px;
+	height: 35px;
+	position: relative;
+}
+#selectDiv img{
+	position: absolute;
+	top: -4px;
+	right: 2px;
+}
+select{
+	/*background:url('down.png') no-repeat;
+  background-position:100% center;*/
+	border: none;
+	border-bottom: 1px solid #949494;
+	width: 100%;
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 400;
+	font-family: "roboto";
+	height: 100%;
+-webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+	padding-bottom: 12px;
+	padding-left: 50px;	
+}
+select::-ms-expand {
+     display: none;
+}
+select:focus{
+	outline: none !important;
+	border:none;
+	border-bottom: 2px solid #8626c3;
+}
+input[type=text]:focus{
+
+	outline: none !important;
+	border:none;
+	border-bottom: 2px solid #8626c3;
+}
+input[type=number]:focus{
+
+	outline: none !important;
+	border:none;
+	border-bottom: 2px solid #8626c3;
+}
+input[type=date]:focus{
+	outline: none !important;
+	border:none;
+	border-bottom: 2px solid #8626c3;	
+}
+/*input[type=text]:focus #inpSch{
+	position: absolute;
+	top: 83px;
+}*/
+/*input[type=number]:focus #inpSch{
+	position: absolute;
+	top: 83px;
+}*/
+/*input[type=date]:focus #inpPassing{
+	position: absolute;
+	top: 83px;
+}*/
+input[type='radio']{
+	width: 16px;
+	height: 16px;
+	border: 3px solid red !important;
+}
+/*input[type=date]::-webkit-datetime-edit-text {
+    -webkit-appearance: none;
+    display: none;
+}
+input[type=date]::-webkit-datetime-edit-month-field{
+    -webkit-appearance: none;
+    display: none;
+}
+input[type=date]::-webkit-datetime-edit-day-field {
+    -webkit-appearance: none;
+    display: none;
+}
+input[type=date]::-webkit-datetime-edit-year-field {
+    -webkit-appearance: none;
+    display: none;
+}*/
+#degRadio1{
+	/*border: 1px solid;*/
+	position: absolute;
+	left: 22.5px;
+	top: 62px;
+	height: 30px;
+	padding: 0px;
+	width: 30%;
+}
+#degRadio2{
+	position: absolute;
+	left: 42.5%;
+	top: 62px;
+	height: 30px;
+	padding: 0px;
+	width: 30%;	
+}
+#degRadio1 label{
+	margin-top: -5px;
+	margin-left: 10px;
+	margin: 0px;
+	font-family: "Roboto";
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 400;
+	position: relative;
+	top: -0.6px;
+	left: 9px;
+	letter-spacing: 0.1px;
+}
+#degRadio2 label{
+	margin-top: -5px;
+	margin-left: 10px;
+	margin: 0px;
+	font-family: "Roboto";
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 400;
+	position: relative;
+	top: -0.6px;
+	left: 9px;
+	letter-spacing: 0.1px;
+}
+#selectDiv label,#schDiv label,#gradeDiv label{
+	
+	font-size: 15px;
+	font-family: arial;
+	font-weight: normal;
+	font-style: normal;
+	opacity: 0.9;
+	height: 10px;
+	width: 16px;
+	background-color: #fff;
+	color: red;
+	
+}
+#schDiv label{
+	position: absolute;
+	left: 20px;
+	top: 90px;
+}
+#gradeDiv label{
+	position: absolute;
+	left: 20px;
+	top: 55px;
+}
+#selectDiv label{
+	position: absolute;
+	left: 4px;
+	top: 5px;
+}
+
+
+.othertext{
+	border: none;
+	border-bottom: 1px solid #949494;
+	width: 60%;
+	margin-left: 15px;
+	font-size: 16px;
+	height: 40px;
+	padding-top: 50px;
+
+}
+
+
+
+.anim{
+	animation: up 0.6s 1 0s normal both;
+}
+.anim1{
+	animation: down 0.6s 1 0s normal both;
+}
+.plsanim{
+	animation: plsup 0.6s 1 0s normal both;
+}
+.plsanim1{
+	animation: plsdown 0.6s 1 0s normal both;
+}
+#errorOTHERBOARD,#errorOTHERSPEC,#errorOTHERCOUN,#errorOTHERSTATE{
+	/*display: flex;*/
+	position: absolute;
+	top: 160px;
+}
+#errorOTHERPOSTDEGREE,#errorOTHERPOSTINST,#errorOTHERPOSTUNIV,#errorOTHERPOSTSTATE,#errorOTHERPOSTBRANCH{
+	/*display: flex;*/
+	position: absolute;
+	top: 160px;
+}
+.otherdiv{
+	position: relative;
+	display: none;
+	width: 48%;
+}
+#errorSCHOOL,#errorGRADE,#errorPOSTGRADE{
+	/*display: flex;*/
+}
+#errorBOARD,#errorSPEC,#errorCOUN,#errorSTATE{
+	/*display: flex;*/
+	position: absolute;
+	top: 70px;
+	/*display: none;*/
+}
+#errorPOSTDEGREE,#errorPOSTINST,#errorPOSTUNIV,#errorPOSTCOUN,#errorPOSTSTATE,#errorPOSTBRANCH{
+	position: absolute;
+	top: 70px;
+	/*display: none;*/
+	/*display: flex;*/
+}
+#errorPASSING,#errorPOSTPASSING{
+	/*display: flex;*/
+	position: absolute;
+	top: 110px;
+
+}
+#errorBACKQ,#errorGAPSQ{
+	position: relative;
+	top: 30px;
+	left: 300px;
+	display: none;
+}
+#errorGAPS,#errorBACK{
+	/*position: absolute;
+	top: 110px;*/
+	/*display: flex;	*/
+}
+@keyframes up{
+	from{
+		transform: translateY(0px);
+		 
+	}
+	to{
+		transform:translateY(-22px);	
+	}
+}
+@keyframes down{
+	from{
+		transform: translateY(-22px);
+		 
+	}
+	to{
+		transform:translateY(0px);	
+	}
+}
+@keyframes plsup{
+	from{
+		transform: translateY(0px) scale(1.0);
+		 
+	}
+	to{
+		transform:translateY(-18px) scale(0.7);	
+	}
+} 
+@keyframes plsdown{
+	from{
+		transform: translateY(-18px) scale(0.7);
+		 
+	}
+	to{
+		transform:translateY(0px) scale(1);	
+	}
+} 
+.warn{
+	/*border: 1px solid;*/
+	width: max-content;
+	/*display: flex;*/
+	margin-top: -12px;
+	padding-top: -30px;
+	margin-left: 13px;
+	letter-spacing: 0.1px;
+	margin-bottom: 15px;
+	display: none;
+}
+.warn img{
+	margin-top: -1.2px;
+	margin-left: 2.5px;
+}
+.warn label{
+	font-family:"Roboto" ;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 400;
+	color: #de350b;
+	margin-left: -4.5px;
+	margin-top: -0.1px;
+}
+
+
+/*board*/
+#board{
+	padding-bottom: 60px;
+}
+#boardName{
+	margin-left: 3%;
+	
+	margin-top: -15px;
+}
+
+#gradeName,#postgradeName{
+	width: 80%;
+}
+
+@media screen and (max-width: 600px)
+{
+	#headerImg{
+		margin-left: -10%;
+	}
+	#info{
+		margin-left: 2.5%;
+	}
+	#allPerc{
+
+		width: 88%;
+		margin-left: 5.7%;
+	}
+	#allPerc p{
+		width: 90%;
+	}
+	#SSLC,#post{
+		width: 95%;
+		margin-left: 2.5%;
+	}
+	.headOfDiv{
+		padding-top: 16px;
+	}
+	#degree{
+		height: 175px;
+		/*height: 190px;*/
+	}
+	#degName{
+		position: absolute;
+		left: 40px;
+	}
+	#errorDEGREE{
+		position: absolute;
+		top: 185px;
+		left: 20px;
+	}
+	#degRadio1{
+		width: 100%;
+		position: absolute;
+		left: 30px;
+	}
+	#degRadio2{
+		width: 100%;
+		position: absolute;
+		left: 30px;
+		top: 120px;
+	}
+	.inpDiv{
+		width: 93%;
+	}
+	#schPara{
+		width: 87%;
+	}
+	/*.warn{
+		display: none;
+	}
+	#errorDEGREE{
+		display: none;
+	}*/
+	input[type=text],input[type=number]{
+		width: 88%;
+	}
+	#boardName{
+		margin-left: 8%;
+	}
+	select{
+		border: 1px solid #e0e0e0;
+		height: 65px;
+		box-sizing: border-box;
+		padding-bottom: 10px;
+		border-radius: 5px;
+		padding-top: 15x !important;
+		padding-left: 10px;
+		padding-bottom: 0px;
+	}
+	#selectDiv{
+		width: 92%;
+		margin-top: 20px;
+		margin-left: 15px;
+		height: 35px;
+		position: relative;
+	}
+	#selectDiv img{
+		position: absolute;
+		top: 21px;
+		right: 7px;
+	}
+	#selectDiv label{
+		position: absolute;
+		left: 6px;
+		top: -4.5px;
+		font-size: 15px;
+		font-family: arial;
+		font-weight: normal;
+		font-style: normal;
+		opacity: 0.9;
+		height: 10px;
+		width: 16px;
+		background-color: #fff;
+		color: red;
+	}
+	.othertext{
+		margin-top: 50px;
+		padding-top: 0px;
+		border: 1px solid red;
+	}
+	.otherdiv{
+		/*display: none;*/
+	}
+	#selectDiv label{
+		position: absolute;
+		top: 18px;
+		opacity: 1;
+		width: 7px;
+		padding: 0px 2px;
+	}
+	select:focus{
+		border: 2px solid #8626c3;
+	}
+	#schDiv label{
+		position: absolute;
+		left: 20px;
+		top: 115px;
+	}
+	#gradeDiv label{
+		position: absolute;
+		left: 20px;
+		top: 75px;
+	}
+	#board{
+		/*border: 1px solid ;*/
+		padding-bottom: 90px;
+	}
+	#errorBOARD,#errorSPEC,#errorCOUN,#errorSTATE{
+		position: absolute;
+		top: 95px;
+	}
+	#errorPOSTDEGREE,#errorPOSTINST,#errorPOSTUNIV,#errorPOSTCOUN,#errorPOSTSTATE,#errorPOSTBRANCH{
+		position: absolute;
+		top: 95px;
+	}
+	#errorPOSTPASSING{
+		position: absolute;
+		top: 120px;
+	}
+	#errorPOSTGRADE{
+		position: absolute;
+		top: 130px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*AMmu*/
+#graduation{
+	width: 83%;
+	background-color: #fff;
+	height: max-content;
+	margin-left: 8.5%;
+	margin-top: 49px;
+	box-shadow: 0px 0px 2px 3.5px #c1d2e2;
+}
+#heading{
+	padding: 16px 0px 0px 31.6px;
+	font-family: "Roboto";
+	font-weight: 700;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 16px;
+	display: flex;
+}
+#head{
+	margin-left: 10.5px;
+	letter-spacing: 0.1px;
+}
+#degreeGrad,#gradeGrad{
+	margin: 16px auto;
+	height: max-content;
+	margin-bottom: 30px;
+}
+#gradeNameGrad{
+	margin-top: 15px;
+	margin-left: 33px;
+}
+.inpDivGrad{
+	margin-top: 20px;
+	width: 97%;
+	border-bottom: 0.2px solid #e0e0e0;
+	border-left: none;
+	border-right: none;
+	/*padding-bottom: -10px;*/
+	position: relative;
+	/*margin-bottom: 20px;*/
+	padding-bottom: 60px !important;
+	/*padding: 50px 0px !important;*/
+	/*padding-top: 20px;*/
+}
+.inpnameGrad{
+	font-weight: 700;
+	font-family: "Roboto";
+	font-size: 16px;
+	line-height: 16px;
+	width: max-content;	
+}
+.inpGradeGrad{
+	margin-top: 30px;
+	margin-bottom: 38px;
+}
+#gradeNameGrad{
+	margin-top: 15px;
+	margin-left: 33px;
+}
+#gradeDivGrad label{
+	position: relative;
+	right: 92.1%;
+
+}
+input[type=text],input[type=number]{
+	border: none;
+	border-bottom: 1px solid #949494;
+	width: 92%;
+	margin-left: 15px;
+	font-size: 16px;
+	height: 40px;
+}
+#selectDivGrad{
+	width: 97.2%;
+	margin-top: 47px;
+	margin-left: 15px;
+	height: 35px;
+	position: relative;
+	/*margin-bottom: 30px;*/
+}
+#selectDivGrad img{
+	position: absolute;
+	top: -4px;
+	right: 2px;
+}
+select{
+	border: none;
+	border-bottom: 1px solid #949494;
+	width: 100%;
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 400;
+	font-family: "roboto";
+	height: 100%;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	padding-bottom: 12px;	
+	padding-left: 40px;
+}
+select::-ms-expand {
+     display: none;
+}
+select:focus{
+	outline: none !important;
+	border:none;
+	border-bottom: 2px solid #8626c3;
+}
+input[type=text]:hover{
+	outline: none !important;
+	border:none;
+	border-bottom: 2px solid #8626c3;
+}
+input[type=text]:focus{
+
+	outline: none !important;
+	border:none;
+	border-bottom: 2px solid #8626c3;
+}
+input[type=number]:focus{
+
+	outline: none !important;
+	border:none;
+	border-bottom: 2px solid #8626c3;
+}
+#selectDivGrad label,#gradeDivGrad label{
+	
+	font-size: 15px;
+	font-family: arial;
+	font-weight: normal;
+	font-style: normal;
+	opacity: 0.9;
+	height: 10px;
+	width: 16px;
+	background-color: #fff;
+	color: red;
+}
+#gradeDivGrad label{
+	position: absolute;
+	left: 20px;
+	top: 55px;
+}
+#selectDivGrad label{
+	position: absolute;
+	left: 4px;
+	top: 5px;
+}
+.otherdivGrad{
+	position: relative;
+	display: none;
+	width: 48%;
+}
+.othertextGrad{
+	border: none;
+	border-bottom: 1px solid #949494;
+	width: 60%;
+	margin-left: 15px;
+	font-size: 16px;
+	height: 40px;
+	padding-top: 50px;
+}
+
+.anim{
+	animation: up 0.6s 1 0s normal both;
+}
+.anim1{
+	animation: down 0.6s 1 0s normal both;
+}
+.plsanim{
+	animation: plsup 0.6s 1 0s normal both;
+}
+.plsanim1{
+	animation: plsdown 0.6s 1 0s normal both;
+}
+
+#errorOTHERDEGREEGRAD,#errorOTHERINSTGRAD,#errorOTHERUNIVGRAD,#errorOTHERSTATEGRAD,#errorOTHERSPE{
+	/*display: flex;*/
+	position: absolute;
+	top: 160px;
+}
+#errorGRADEGrad,#errorPASSINGGRAD{
+	/*display: flex;*/
+}
+#errorDegreeGrad,#errorINSTGRAD,#errorUNIVGRAD,#errorCOUNGrad,#errorSTATEGrad,#errorSPE{
+	/*display: flex;*/
+	position: absolute;
+	top: 70px;
+}
+@keyframes up{
+	from{
+		transform: translateY(0px);
+		 
+	}
+	to{
+		transform:translateY(-22px);	
+	}
+}
+@keyframes down{
+	from{
+		transform: translateY(-22px);
+		 
+	}
+	to{
+		transform:translateY(0px);	
+	}
+}
+@keyframes plsup{
+	from{
+		transform: translateY(0px) scale(1.0);
+		 
+	}
+	to{
+		transform:translateY(-18px) scale(0.7);	
+	}
+} 
+@keyframes plsdown{
+	from{
+		transform: translateY(-18px) scale(0.7);
+		 
+	}
+	to{
+		transform:translateY(0px) scale(1);	
+	}
+} 
+.warnGrad{
+	/*border: 1px solid;*/
+	width: max-content;
+	/*display: flex;*/
+	margin-top: -12px;
+	padding-top: -30px;
+	margin-left: 13px;
+	letter-spacing: 0.1px;
+	margin-bottom: 15px;
+	display: none;
+}
+.warnGrad img{
+	margin-top: -1.2px;
+	margin-left: 2.5px;
+}
+.warnGrad label{
+	font-family:"Roboto" ;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 400;
+	color: #de350b;
+	margin-left: -4.5px;
+	margin-top: -0.1px;
+}
+#degreeGrad{
+	/*border: none;*/
+	/*border-top: 0.2px solid #e0e0e0;*/
+	/*margin-top: 60px;*/
+	padding-bottom: 0px;
+}
+#degreeNameGrad{
+	margin-left: 3%;
+	
+	margin-top: -15px;
+}
+#gradeNameGrad{
+	width: 80%;
+}
+#onlyHr{
+	/*border: 1px so;*/
+	width: 96%;
+	opacity: 0.3;
+	margin-left: 20px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+@media screen and (max-width: 600px)
+{
+	#headerImg{
+		margin-left: -10%;
+	}
+	#graduation{
+		width: 95%;
+		margin-left: 2.5%;
+	}
+	#heading{
+		padding-top: 16px;
+	}
+	.inpDivGrad{
+		width: 93%;
+	}
+	/*.warnGrad{
+		display: none;
+	}
+	#errorDEGREEGrad{
+		display: none;
+	}*/
+	input[type=text],input[type=number]{
+		width: 88%;
+	}
+	#degreeNameGrad{
+		margin-left: 8%;
+	}
+	select{
+		border: 1px solid #e0e0e0;
+		height: 65px;
+		box-sizing: border-box;
+		padding-bottom: 10px;
+		border-radius: 5px;
+		padding-top: 15x !important;
+		padding-left: 10px;
+		padding-bottom: 0px;
+	}
+	#selectDivGrad{
+		width: 92%;
+		margin-top: 20px;
+		margin-left: 15px;
+		height: 35px;
+		position: relative;
+
+	}
+	#selectDivGrad img{
+		position: absolute;
+		top: 21px;
+		right: 7px;
+	}
+	#selectDivGrad label{
+		position: absolute;
+		left: 6px;
+		top: -4.5px;
+		font-size: 15px;
+		font-family: arial;
+		font-weight: normal;
+		font-style: normal;
+		opacity: 0.9;
+		height: 10px;
+		width: 16px;
+		background-color: #fff;
+		color: red;
+	}
+	.othertextGrad{
+		margin-top: 50px;
+		padding-top: 0px;
+		border: 1px solid red;
+	}
+	.otherdivGrad{
+		/*display: none;*/
+	}
+	#selectDivGrad label{
+		position: absolute;
+		top: 18px;
+		opacity: 1;
+		width: 7px;
+		padding: 0px 2px;
+	}
+	select:focus{
+		border: 2px solid #8626c3;
+	}
+	#gradeDivGrad label{
+		position: absolute;
+		left: 20px;
+		top: 75px;
+	}
+	#degreeGrad{
+		/*border: 1px solid ;*/
+		padding-bottom: 90px;
+	}
+	#errorDegree,#errorINST,#errorUNI,#errorCOUNGrad,#errorSTATEGrad,#errorSPE{
+		position: absolute;
+		top: 95px;
+	}
+	.inpDivGrad{
+		padding-bottom: 90px !important;
+	}
+}
+
+
+
+/* CHIA */
+
+.two{
+    background-color: white;
+    width: 80%;
+    height: 380px;
+    margin: 50px 0px;
+    margin-left: 8.5%;
+    box-shadow: 0px 0px 8px #888888;
+    padding: 0px 20px;
+}
+
+.excess{
+    background-color: white;
+    width: 80%;
+    height: 150px;
+    margin: 50px 0px;
+    margin-left: 8.5%;
+    box-shadow: 0px 0px 8px #888888;
+    padding: 0px 20px;
+}
+
+.four{
+    background-color: white;
+    width: 80%;
+    height: 580px;
+    margin: 50px 0px;
+    margin-left: 8.5%;
+    box-shadow: 0px 0px 8px #888888;
+    padding: 0px 20px;
+}
+
+.hone{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 15px 30px;
+    border-bottom: 2px solid rgba(211,211,211,0.35);
+    font-family: 'Roboto', sans-serif;
+    line-height: 16px;
+    color: #000000;
+}
+
+.htwo{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 3px 30px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 16px;
+    color: #000000;
+    
+}
+
+.hthree{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 3px 30px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 16px;
+    color: #000000;
+    position: relative;
+    top: 90px;
+}
+
+
+.hfour{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 3px 30px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 16px;
+    color: #000000;
+    position: relative;
+    top: 18px;
+    left: -17px;
+}
+
+
+ul{
+    display: flex;
+}
+
+ul li{
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    list-style: none;
+    font-family: 'roboto';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    padding-left: 30px;
+    padding-right:40px;
+    margin: 0px 20px;
+    border: 1px solid white;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px #888888;
+    position:relative;
+    left: -30px;
+}
+
+li:hover{
+    background-color:hsl(277,56%,89%);
+    border:2px solid #9c4ecd ;
+    color:#9c4ecd;
+}
+
+.cross1:hover,.cross2:hover{
+    color:hsl(277,66%,46%);
+}
+
+.cross:hover,.cros:hover{
+    border: 2px solid hsl(277,66%,46%);
+    color:hsl(277,66%,46%);
+}
+
+.cros{
+    position: absolute;
+    left:6px;
+    top:5px;
+    width:17px;
+    height: 17px;
+    border-radius: 100%;
+    border: 2px solid black;
+}
+
+.cross2{
+/*    border: 10px solid black;*/
+    font-weight: 900;
+    position: relative;
+    top:-7px;
+    left:3px;
+    width: 20px;
+    height: 30px;
+    color: black;
+    font-size:14px;
+}
+
+.cross{
+    font-weight: 600;
+    position: absolute;
+    left:6px;
+    top:5px;
+    width: 17px;
+    height: 17px;
+    border-radius: 100%;
+    border: 2px solid black;
+}
+
+
+.cross1{
+    font-weight: 600;
+    position: relative;
+    top: -7px;
+    left:1px;
+    width:20px;
+    height:30px;
+    color: black;
+    font-size:24px;
+}
+
+.cro{
+    font-weight: 900;
+    position: absolute;
+    left:7px;
+    top:5px;
+    width: 17px;
+    height: 17px;
+    border-radius: 100%;
+    border: 2px solid black;
+}
+
+.cros2{
+    font-weight:900;
+    position: absolute;
+    top: -6px;
+    left: 3px;
+    width: 20px;
+    height: 30px;
+    color: black;
+    font-size:14px;
+}
+
+.cr{
+    position: absolute;
+    left:7px;
+    top:5px;
+    width: 17px;
+    height: 17px;
+    border-radius: 100%;
+    border: 2px solid black;
+}
+
+.cros1{
+    font-weight: 600;
+    position: relative;
+    top:-7px;
+    left:1px;
+    width: 30px;
+    height: 30px;
+    color: black;
+    font-size:24px;
+}
+
+
+
+.cros1:hover,.cros2:hover{
+    color:hsl(277,66%,46%);
+}
+
+.cr:hover,.cro:hover{
+    border: 2px solid hsl(277,66%,46%);
+    color:hsl(277,66%,46%);
+}
+
+
+
+.three p{
+    border-top: 2px solid rgba(211,211,211,0.35);
+    margin-top:35px;
+}
+
+/*
+{
+    border-top: 2px solid rgba(211,211,211,0.35);
+    margin-top:35px;
+}
+*/
+
+.par{
+    border-top: 2px solid rgba(211,211,211,0.35);
+    margin-top:35px;
+}
+
+.par1{
+    border-top: 2px solid rgba(211,211,211,0.35);
+    margin-top:35px;
+    position:relative;
+    top:82px;
+}
+
+
+
+
+/*.sodi-text{ 
+     width: 74%; 
+     height: 40px; 
+     border: none; 
+     outline: none;
+    position: absolute;
+    left: 175px;
+    top: 299px;
+     border-bottom: 1px solid black; 
+     font-size: 16px; 
+ }*/ 
+/* .sodi-text:focus{ 
+     border-bottom: 2.5px solid purple;
+}
+
+.sodi-text:hover{ 
+     border-bottom: 2.5px solid black;
+}*/
+
+.star{
+    position: absolute;
+    right:86.5%;
+    top: 45%;
+    transition:top 0.27s ease-in-out;
+}
+/*.sodi-text:focus ~ .star{
+    position: absolute;
+    right: 86.5%;
+    top: 43%;
+    font-size: 15px;
+    color: rgba(207, 0, 0, 0.76);
+}*/
+
+.error{
+    position: absolute;
+    top: 400px;
+    margin-top: -40px;
+    font-family:" Roboto";
+    font-size:16px;
+    font-style: normal;
+    font-weight: 400;
+    color:#de350b;
+}
+
+/*.sodi-text1{ 
+     width: 74%; 
+     height: 40px; 
+     border: none; 
+     outline: none;
+    position: absolute;
+    left: 175px;
+    top: 709px;
+     border-bottom: 1px solid black; 
+     font-size: 16px; 
+ } 
+ .sodi-text1:focus{ 
+     border-bottom: 2.5px solid purple;
+}
+
+.sodi-text1:hover{ 
+     border-bottom: 2.5px solid black;
+}*/
+
+.star1{
+    position: absolute;
+    right:86.5%;
+    top: 108%;
+    transition:top 0.27s ease-in-out;
+}
+/*.sodi-text1:focus ~ .star1{
+    position: absolute;
+    right: 86.5%;
+    top: 105%;
+    font-size: 15px;
+    color: rgba(207, 0, 0, 0.76);
+}*/
+
+.error1{
+    position: absolute;
+    top: 770px;
+/*    margin-top: 40px;*/
+    font-family: Roboto;
+    font-size:16px;
+    font-style: normal;
+    font-weight: 400;
+    color:#de350b;
+}
+
+.error2{
+    position: absolute;
+    top: 990px;
+    left: 165px;
+/*    margin-top: 40px;*/
+    font-family: Roboto;
+    font-size:16px;
+    font-style: normal;
+    font-weight: 400;
+    color:#de350b;
+}
+
+.star2{
+/*    background-color: aquamarine;*/
+    position: absolute;
+    right:86.5%;
+    top: 136%;
+    transition:top 0.27s ease-in-out;
+}
+
+/*.sodi-text2:focus ~ .star2{
+    position: absolute;
+    right: 86.5%;
+    top: 132%;
+    font-size: 15px;
+    color: rgba(207, 0, 0, 0.76);
+}
+*/
+/*.sodi-text2{ 
+     width: 74%; 
+     height: 120px; 
+     border: none; 
+     outline: none;
+    position: absolute;
+    left: 175px;
+    top: 850px;
+     border-bottom: 1px solid black; 
+     font-size: 16px; 
+ } */
+/* .sodi-text2:focus{ 
+     border-bottom: 2.5px solid purple;
+}
+
+.sodi-text2:hover{ 
+     border-bottom: 2.5px solid black;
+}*/
+
+.box1{
+    position:relative;
+    display: inline;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right: 420px;
+    margin:-10px;
+    top: 40px;
+/*    border: 2px solid black;*/
+}
+
+.box1:hover,.box2:hover{
+    background-color: whitesmoke;
+    border-radius:10px;
+    color:hsl(277,66%,46%);
+}
+
+.box2{
+    position:relative;
+    display:inline;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-right: 420px;
+    margin:-10px;
+    top: 40px;
+    left: 10px;
+}
+
+.cb1{
+        color:hsl(277,66%,46%);
+
+    }
+.tableeye{
+	height: 20px;
+	width: 20px;
+}
+/*.tablefirst{
+	width: 20%;
+}
+.tableerror{
+	width: 50%;
+}
+.tableeye{
+	width: 30%;
+}*/
+input:focus+label,select:focus+label{
+   transform: translatey(-150%);
+   transition:transform 0.5s ease;
+}
+#err{
+    background-color: rgb(220,233,244);
+    border-radius: 20px;
+    padding:20px 10px;
+}
+table{
+    width: 100%;
+    text-align: left;
+    border-bottom:1px solid rgb(100,100,100,0.5);
+    margin:20px 2px;
+    border-collapse: collapse;
+}
+tr{
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    cursor: pointer;
+}
+tr:hover{
+    background-color: blanchedalmond;
+}
+td:nth-child(2),th:nth-child(2){
+    color:red;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+#tableOfErrors tr td img{
+	height: 20px;
+	width: 20px;
+}
+#foot{
+	background-color: #f4f0ec;
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	bottom: 0px;
+}
+/*#foot div progress{
+	height: 10px;
+}
+#foot div progress::-webkit-progress-value {
+	background-color: #8626c3;
+}*/
+#foot{
+	font-weight: 700;
+	font-family: "Roboto";
+	font-size: 12px;
+	line-height: 13px;
+}
+#foot{
+	padding: 0px;
+}
+#progress{
+	margin-left: 11%;
+	margin-top: 20px;
+	/*border: 1px solid ;*/
+	padding: 0px;
+	width: 20%;
+}
+#pbar{
+	margin-top: 4px;
+	margin-left: 10px;
+	width:110px;
+	background-color: #e0e0e0;
+	height: 4px;
+	border-radius: 15px;
+}
+#myBar{
+	border-radius:15px;
+	height:4px;
+	background-color: #8626c3;
+	
+}
+#Esttime{
+	position: absolute;
+	left: 50%;
+	
+}
+#footnext button{
+	position: absolute;
+	top: 15px;
+	right: 12%;
+	background-color: black;
+	color: white;
+	font-family: "roboto";
+	font-size: 12px;
+	font-weight: 900;
+	height: 20px;
+	width: 130px;
+	border-radius: 5px;
+}
+#gobutton button{
+	background-color: black;
+	color: white;
+	font-family: "roboto";
+	font-size: 14px;
+	font-weight: 500;
+	height: 30px;
+	width: 180px;
+	border-radius: 5px;	
+	margin-left:15px;
+}
+#gobutton a{
+	background-color: black;
+	color: white;
+	font-family: "roboto";
+	font-size: 14px;
+	font-weight: 500;
+	height: 30px;
+	width: 180px;
+	border-radius: 5px;	
+	margin-left:15px;
+	padding: 6px 60px;
+}
+#gobutton{
+	width: max-content;
+	margin-left: 32%;
+	margin-bottom: 30px;
+	margin-top: 40px;
+}
+#gobutton button:hover{
+	box-shadow: 2px 2px 6px 0px #666666;
+}
+
+.yesno button{
+	border-radius: 30px;
+	border: 0.2px solid #e0e0e0;
+	background-color: white;
+	/*box-shadow: 0.2px 0.2px 0.2px black;*/
+	width: 90px;
+	display: flex;
+	height: 32px;
+}
+.yesno button div{
+	border-radius: 100%;
+	height: 17px;
+	width: 17px;
+	border: 2px solid;
+	
+	position: relative;
+	top: 3px;
+	left: 2px;
+}
+.yesno button div span{
+	font-size: 25px;
+	position: absolute;
+	top: -7px;
+	left: 2px;
+}
+.right{
+	font-size: 40px;
+	position: relative;
+	top: -10px;
+	left: 1px;
+}
+.yesno button span{
+	font-size: 14px;
+	font-family: "roboto";
+	font-weight: 500;
+	position: relative;
+	top: 5px;
+	left: 6px;
+}
+
+/*XII Standard block*/
+#XII{
+	width: 83%;
+	background-color: #fff;
+	height: max-content;
+	margin-left: 8.5%;
+	margin-top: 49px;
+	box-shadow: 0px 0px 2px 3.5px #c1d2e2;
+}
+
+.h{
+	margin-left: 10.5px;
+	letter-spacing: 0.1px;
+}
+
+.opt{
+	color: #a0a0a0;
+	font-size: 13px;
+	font-family: "Roboto";
+	font-weight: 400;
+	line-height: 13px;
+	letter-spacing: 0.1px;
+}
+#degreeXii{
+	border-top: 0.2px solid #e0e0e0;
+	margin: 16px auto;
+	/*height: 136px; */         /*JS*/
+	height: 140px;              /*Errorfree height*/
+}
+#schoolXii,#boardXii,#gradeXii,#passingXii{
+	margin: 16px auto;
+	height: max-content;
+	margin-bottom: 30px;
+}
+#passingXii{
+	padding-bottom: 30px;
+}
+#errorDEGREEXII{
+	position: absolute;
+	top: 130px;
+	left: 10.5px;
+}
+#errorDEGREEXII img{
+	/*border: 1px solid;*/
+	margin-top: -1.2px;
+	margin-left: 2.5px;
+}
+#errorDEGREEXII{
+	/*border: 1px solid ;*/
+	margin-top: -25px;
+	margin-left: 4px;
+	letter-spacing: 0.1px;
+	/*display: flex;*/
+	display: none;
+}
+#errorDEGREEXII label{
+	font-family:"Roboto" ;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 400;
+	color: #de350b;
+	margin-left: -4.5px;
+	margin-top: -0.1px;
+}
+.inpDivXii{
+	
+	width: 97%;
+	border-bottom: 0.2px solid #e0e0e0;
+	border-left: none;
+	border-right: none;
+	padding-bottom: -10px;
+	position: relative;
+}
+
+.inpnameXii{
+	font-weight: 700;
+	font-family: "Roboto";
+	font-size: 16px;
+	line-height: 16px;
+	width: max-content;
+	
+}
+#degNameXii{
+	position: absolute;
+	top: 15px;
+	left: 0px;
+}
+/*#schName,#gradeName,#passingName,#XiiDegreeName,#XiiInstName,#XiiUnivName*/
+.inpnameXii{
+	margin-top: 15px;
+	margin-left: 33px;
+}
+#schParaXii{
+	color: #d2d2d2;
+	margin-left: 33px;
+	margin-top: 10px;
+	font-size: 13px;
+	font-family: "Roboto";
+	font-weight: 400;
+	line-height: 13px;
+	letter-spacing: 0.1px;
+}
+.inpSchoolXii{
+	margin-top: 30px;
+	margin-bottom: 38px;
+}
+.inpGradeXii,#inpXiiGrade{
+	margin-top: 30px;
+	margin-bottom: 38px;
+}
+.inpPassingXii{
+	margin-top: 30px;
+	margin-bottom: 38px;	
+}
+#schDivXii{
+	/*width: 92%;
+	margin-top: 47px;
+	margin-left: 15px;
+	height: 35px;
+	position: relative;*/
+}
+#schDivXii label,#gradeDivXii label,#passingDivXii label{
+	position: relative;
+	right: 92.1%;
+
+}
+input[type=text],input[type=number],input[type=date]{
+	border: none;
+	border-bottom: 1px solid #949494;
+	width: 92%;
+	margin-left: 15px;
+	font-size: 16px;
+	height: 40px;
+
+}
+
+
+#selectDivXii{
+	width: 97.2%;
+	margin-top: 47px;
+	margin-left: 15px;
+	height: 35px;
+	position: relative;
+}
+#selectDivXii img{
+	position: absolute;
+	top: -4px;
+	right: 2px;
+}
+select{
+	/*background:url('down.png') no-repeat;
+  background-position:100% center;*/
+	border: none;
+	border-bottom: 1px solid #949494;
+	width: 100%;
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 400;
+	font-family: "roboto";
+	height: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+	padding-bottom: 12px;	
+}
+select::-ms-expand {
+     display: none;
+}
+select:focus{
+	outline: none !important;
+	border:none;
+	border-bottom: 2px solid #8626c3;
+}
+input[type=text]:focus{
+
+	outline: none !important;
+	border:none;
+	border-bottom: 2px solid #8626c3;
+}
+input[type=number]:focus{
+
+	outline: none !important;
+	border:none;
+	border-bottom: 2px solid #8626c3;
+}
+input[type=date]:focus{
+	outline: none !important;
+	border:none;
+	border-bottom: 2px solid #8626c3;	
+}
+/*input[type=text]:focus #inpSch{
+	position: absolute;
+	top: 83px;
+}*/
+/*input[type=number]:focus #inpSch{
+	position: absolute;
+	top: 83px;
+}*/
+/*input[type=date]:focus #inpPassing{
+	position: absolute;
+	top: 83px;
+}*/
+input[type='radio']{
+	width: 16px;
+	height: 16px;
+	border: 3px solid red !important;
+}
+/*input[type=date]::-webkit-datetime-edit-text {
+    -webkit-appearance: none;
+    display: none;
+}
+input[type=date]::-webkit-datetime-edit-month-field{
+    -webkit-appearance: none;
+    display: none;
+}
+input[type=date]::-webkit-datetime-edit-day-field {
+    -webkit-appearance: none;
+    display: none;
+}
+input[type=date]::-webkit-datetime-edit-year-field {
+    -webkit-appearance: none;
+    display: none;
+}*/
+#degRadio1Xii{
+	/*border: 1px solid;*/
+	position: absolute;
+	left: 22.5px;
+	top: 62px;
+	height: 30px;
+	padding: 0px;
+	width: 30%;
+}
+#degRadio2Xii{
+	position: absolute;
+	left: 42.5%;
+	top: 62px;
+	height: 30px;
+	padding: 0px;
+	width: 30%;	
+}
+#degRadio3Xii{
+	/*border: 1px solid;*/
+	position: absolute;
+	left: 22.5px;
+	top: 95px;
+	height: 30px;
+	padding: 0px;
+	width: 30%;
+}
+#degRadio1Xii label{
+	margin-top: -5px;
+	margin-left: 10px;
+	margin: 0px;
+	font-family: "Roboto";
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 400;
+	position: relative;
+	top: -0.6px;
+	left: 9px;
+	letter-spacing: 0.1px;
+}
+#degRadio2Xii label{
+	margin-top: -5px;
+	margin-left: 10px;
+	margin: 0px;
+	font-family: "Roboto";
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 400;
+	position: relative;
+	top: -0.6px;
+	left: 9px;
+	letter-spacing: 0.1px;
+}
+#degRadio3Xii label{
+	margin-top: -5px;
+	margin-left: 10px;
+	margin: 0px;
+	font-family: "Roboto";
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 400;
+	position: relative;
+	top: -0.6px;
+	left: 9px;
+	letter-spacing: 0.1px;
+}
+#selectDivXii label,#schDivXii label,#gradeDivXii label{
+	
+	font-size: 15px;
+	font-family: arial;
+	font-weight: normal;
+	font-style: normal;
+	opacity: 0.9;
+	height: 10px;
+	width: 16px;
+	background-color: #fff;
+	color: red;
+	
+}
+#schDivXii label{
+	position: absolute;
+	left: 20px;
+	top: 90px;
+}
+#gradeDivXii label{
+	position: absolute;
+	left: 20px;
+	top: 55px;
+}
+#selectDivXii label{
+	position: absolute;
+	left: 4px;
+	top: 5px;
+}
+
+
+.othertextXii{
+	border: none;
+	border-bottom: 1px solid #949494;
+	width: 60%;
+	margin-left: 15px;
+	font-size: 16px;
+	height: 40px;
+	padding-top: 50px;
+
+}
+
+
+
+.anim{
+	animation: up 0.6s 1 0s normal both;
+}
+.anim1{
+	animation: down 0.6s 1 0s normal both;
+}
+.plsanim{
+	animation: plsup 0.6s 1 0s normal both;
+}
+.plsanim1{
+	animation: plsdown 0.6s 1 0s normal both;
+}
+#errorOTHERBOARDXII,#errorOTHERSPECXII,#errorOTHERCOUNXII,#errorOTHERSTATEXII{
+	/*display: flex;*/
+	position: absolute;
+	top: 160px;
+}
+
+.otherdivXii{
+	position: relative;
+	display: none;
+	width: 48%;
+}
+#errorSCHOOLXII,#errorGRADEXII{
+	/*display: flex;*/
+}
+#errorBOARDXII,#errorSPECXII,#errorCOUNXII,#errorSTATEXII{
+	/*display: flex;*/
+	position: absolute;
+	top: 70px;
+	/*display: none;*/
+}
+
+#errorPASSINGXII{
+	/*display: flex;*/
+	position: absolute;
+	top: 110px;
+
+}
+@keyframes up{
+	from{
+		transform: translateY(0px);
+		 
+	}
+	to{
+		transform:translateY(-22px);	
+	}
+}
+@keyframes down{
+	from{
+		transform: translateY(-22px);
+		 
+	}
+	to{
+		transform:translateY(0px);	
+	}
+}
+@keyframes plsup{
+	from{
+		transform: translateY(0px) scale(1.0);
+		 
+	}
+	to{
+		transform:translateY(-18px) scale(0.7);	
+	}
+} 
+@keyframes plsdown{
+	from{
+		transform: translateY(-18px) scale(0.7);
+		 
+	}
+	to{
+		transform:translateY(0px) scale(1);	
+	}
+} 
+.warnXii{
+	/*border: 1px solid;*/
+	width: max-content;
+	/*display: flex;*/
+	margin-top: -12px;
+	padding-top: -30px;
+	margin-left: 13px;
+	letter-spacing: 0.1px;
+	margin-bottom: 15px;
+	display: none;
+}
+.warnXii img{
+	margin-top: -1.2px;
+	margin-left: 2.5px;
+}
+.warnXii label{
+	font-family:"Roboto" ;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 400;
+	color: #de350b;
+	margin-left: -4.5px;
+	margin-top: -0.1px;
+}
+
+
+/*board*/
+#boardXii{
+	padding-bottom: 60px;
+}
+#boardNameXii{
+	margin-left: 3%;
+	
+	margin-top: -15px;
+}
+
+#gradeNameXii{
+	width: 80%;
+}
+
+@media screen and (max-width: 600px)
+{
+	#headerImg{
+		margin-left: -10%;
+	}
+	#info{
+		margin-left: 2.5%;
+	}
+	#allPerc{
+
+		width: 88%;
+		margin-left: 5.7%;
+	}
+	#allPerc p{
+		width: 90%;
+	}
+	#XII{
+		width: 95%;
+		margin-left: 2.5%;
+	}
+	.headOfDivXii{
+		padding-top: 16px;
+	}
+	#degreeXii{
+		height: 175px;
+		/*height: 190px;*/
+	}
+	#degNameXii{
+		position: absolute;
+		left: 40px;
+	}
+	#errorDEGREEXII{
+		position: absolute;
+		top: 185px;
+		left: 20px;
+	}
+	#degRadio1Xii{
+		width: 100%;
+		position: absolute;
+		left: 30px;
+	}
+	#degRadio2Xii{
+		width: 100%;
+		position: absolute;
+		left: 30px;
+		top: 105px;
+	}
+	#degRadio3Xii{
+		width: 100%;
+		position: absolute;
+		left: 30px;
+		top: 150px;
+	}
+	.inpDivXii{
+		width: 93%;
+	}
+	#schParaXii{
+		width: 87%;
+	}
+	/*.warn{
+		display: none;
+	}
+	#errorDEGREE{
+		display: none;
+	}*/
+	input[type=text],input[type=number]{
+		width: 88%;
+	}
+	#boardName{
+		margin-left: 8%;
+	}
+	select{
+		border: 1px solid #e0e0e0;
+		height: 65px;
+		box-sizing: border-box;
+		padding-bottom: 10px;
+		border-radius: 5px;
+		padding-top: 15x !important;
+		padding-left: 10px;
+		padding-bottom: 0px;
+	}
+	#selectDivXii{
+		width: 92%;
+		margin-top: 20px;
+		margin-left: 15px;
+		height: 35px;
+		position: relative;
+	}
+	#selectDivXii img{
+		position: absolute;
+		top: 21px;
+		right: 7px;
+	}
+	#selectDivXii label{
+		position: absolute;
+		left: 6px;
+		top: -4.5px;
+		font-size: 15px;
+		font-family: arial;
+		font-weight: normal;
+		font-style: normal;
+		opacity: 0.9;
+		height: 10px;
+		width: 16px;
+		background-color: #fff;
+		color: red;
+	}
+	.othertextXii{
+		margin-top: 50px;
+		padding-top: 0px;
+		border: 1px solid red;
+	}
+	.otherdivXii{
+		display: none;
+	}
+	#selectDivXii label{
+		position: absolute;
+		top: 18px;
+		opacity: 1;
+		width: 7px;
+		padding: 0px 2px;
+	}
+	select:focus{
+		border: 2px solid #8626c3;
+	}
+	#schDivXii label{
+		position: absolute;
+		left: 20px;
+		top: 115px;
+	}
+	#gradeDivXii label{
+		position: absolute;
+		left: 20px;
+		top: 75px;
+	}
+	#boardXii{
+		/*border: 1px solid ;*/
+		padding-bottom: 90px;
+	}
+	#errorBOARDXII,#errorSPECXII,#errorCOUNXII,#errorSTATEXII{
+		position: absolute;
+		top: 95px;
+	}
+	#errorPASSINGXII{
+		position: absolute;
+		top: 120px;
+	}
+	#errorGRADEXII{
+		position: absolute;
+		top: 130px;
+	}
+
+
+}
+
+/*Diploma block*/
+#DIP{
+	width: 83%;
+	background-color: #fff;
+	height: max-content;
+	margin-left: 8.5%;
+	margin-top: 49px;
+	box-shadow: 0px 0px 2px 3.5px #c1d2e2;
+}
+
+
+.h{
+	margin-left: 10.5px;
+	letter-spacing: 0.1px;
+}
+
+.opt{
+	color: #a0a0a0;
+	font-size: 13px;
+	font-family: "Roboto";
+	font-weight: 400;
+	line-height: 13px;
+	letter-spacing: 0.1px;
+}
+#degreeDip{
+	border-top: 0.2px solid #e0e0e0;
+	margin: 16px auto;
+	/*height: 136px; */         /*JS*/
+	height: 119px;              /*Errorfree height*/
+}
+#schoolDip,#boardDip,#gradeDip,#passingDip{
+	margin: 16px auto;
+	height: max-content;
+	margin-bottom: 30px;
+}
+#passingDip{
+	padding-bottom: 30px;
+}
+#errorDEGREEDIP{
+	position: absolute;
+	top: 130px;
+	left: 10.5px;
+}
+#errorDEGREEDIP img{
+	/*border: 1px solid;*/
+	margin-top: -1.2px;
+	margin-left: 2.5px;
+}
+#errorDEGREEDIP{
+	/*border: 1px solid ;*/
+	margin-top: -25px;
+	margin-left: 4px;
+	letter-spacing: 0.1px;
+	/*display: flex;*/
+	display: none;
+}
+#errorDEGREEDIP label{
+	font-family:"Roboto" ;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 400;
+	color: #de350b;
+	margin-left: -4.5px;
+	margin-top: -0.1px;
+}
+.inpDivDip{
+	
+	width: 97%;
+	border-bottom: 0.2px solid #e0e0e0;
+	border-left: none;
+	border-right: none;
+	padding-bottom: -10px;
+	position: relative;
+}
+
+.inpnameDip{
+	font-weight: 700;
+	font-family: "Roboto";
+	font-size: 16px;
+	line-height: 16px;
+	width: max-content;
+	
+}
+#degNameDip{
+	position: absolute;
+	top: 15px;
+	left: 0px;
+}
+/*#schName,#gradeName,#passingName,#DipDegreeName,#DipInstName,#DipUnivName*/
+.inpnameDip{
+	margin-top: 15px;
+	margin-left: 33px;
+}
+#schParaDip{
+	color: #d2d2d2;
+	margin-left: 33px;
+	margin-top: 10px;
+	font-size: 13px;
+	font-family: "Roboto";
+	font-weight: 400;
+	line-height: 13px;
+	letter-spacing: 0.1px;
+}
+.inpSchoolDip{
+	margin-top: 30px;
+	margin-bottom: 38px;
+}
+.inpGradeDip,.inpDipGrade{
+	margin-top: 30px;
+	margin-bottom: 38px;
+}
+.inpPassingDip{
+	margin-top: 30px;
+	margin-bottom: 38px;	
+}
+#schDivDip{
+	/*width: 92%;
+	margin-top: 47px;
+	margin-left: 15px;
+	height: 35px;
+	position: relative;*/
+}
+#schDivDip label,#gradeDivDip label,#passingDivDip label{
+	position: relative;
+	right: 92.1%;
+
+}
+input[type=text],input[type=number],input[type=date]{
+	border: none;
+	border-bottom: 1px solid #949494;
+	width: 92%;
+	margin-left: 15px;
+	font-size: 16px;
+	height: 40px;
+
+}
+
+
+#selectDivDip{
+	width: 97.2%;
+	margin-top: 47px;
+	margin-left: 15px;
+	height: 35px;
+	position: relative;
+}
+#selectDivDip img{
+	position: absolute;
+	top: -4px;
+	right: 2px;
+}
+select{
+	/*background:url('down.png') no-repeat;
+  background-position:100% center;*/
+	border: none;
+	border-bottom: 1px solid #949494;
+	width: 100%;
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 400;
+	font-family: "roboto";
+	height: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+	padding-bottom: 12px;	
+}
+select::-ms-expand {
+     display: none;
+}
+select:focus{
+	outline: none !important;
+	border:none;
+	border-bottom: 2px solid #8626c3;
+}
+input[type=text]:focus{
+
+	outline: none !important;
+	border:none;
+	border-bottom: 2px solid #8626c3;
+}
+input[type=number]:focus{
+
+	outline: none !important;
+	border:none;
+	border-bottom: 2px solid #8626c3;
+}
+input[type=date]:focus{
+	outline: none !important;
+	border:none;
+	border-bottom: 2px solid #8626c3;	
+}
+/*input[type=text]:focus #inpSch{
+	position: absolute;
+	top: 83px;
+}*/
+/*input[type=number]:focus #inpSch{
+	position: absolute;
+	top: 83px;
+}*/
+/*input[type=date]:focus #inpPassing{
+	position: absolute;
+	top: 83px;
+}*/
+input[type='radio']{
+	width: 16px;
+	height: 16px;
+	border: 3px solid red !important;
+}
+/*input[type=date]::-webkit-datetime-edit-text {
+    -webkit-appearance: none;
+    display: none;
+}
+input[type=date]::-webkit-datetime-edit-month-field{
+    -webkit-appearance: none;
+    display: none;
+}
+input[type=date]::-webkit-datetime-edit-day-field {
+    -webkit-appearance: none;
+    display: none;
+}
+input[type=date]::-webkit-datetime-edit-year-field {
+    -webkit-appearance: none;
+    display: none;
+}*/
+#degRadio1Dip{
+	/*border: 1px solid;*/
+	position: absolute;
+	left: 22.5px;
+	top: 62px;
+	height: 30px;
+	padding: 0px;
+	width: 30%;
+}
+#degRadio2Dip{
+	position: absolute;
+	left: 42.5%;
+	top: 62px;
+	height: 30px;
+	padding: 0px;
+	width: 30%;	
+}
+#degRadio1Dip label{
+	margin-top: -5px;
+	margin-left: 10px;
+	margin: 0px;
+	font-family: "Roboto";
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 400;
+	position: relative;
+	top: -0.6px;
+	left: 9px;
+	letter-spacing: 0.1px;
+}
+#degRadio2Dip label{
+	margin-top: -5px;
+	margin-left: 10px;
+	margin: 0px;
+	font-family: "Roboto";
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 400;
+	position: relative;
+	top: -0.6px;
+	left: 9px;
+	letter-spacing: 0.1px;
+}
+#selectDivDip label,#schDivDip label,#gradeDivDip label{
+	
+	font-size: 15px;
+	font-family: arial;
+	font-weight: normal;
+	font-style: normal;
+	opacity: 0.9;
+	height: 10px;
+	width: 16px;
+	background-color: #fff;
+	color: red;
+	
+}
+#schDivDip label{
+	position: absolute;
+	left: 20px;
+	top: 90px;
+}
+#gradeDivDip label{
+	position: absolute;
+	left: 20px;
+	top: 55px;
+}
+#selectDivDip label{
+	position: absolute;
+	left: 4px;
+	top: 5px;
+}
+
+
+.othertextDip{
+	border: none;
+	border-bottom: 1px solid #949494;
+	width: 60%;
+	margin-left: 15px;
+	font-size: 16px;
+	height: 40px;
+	padding-top: 50px;
+
+}
+
+
+
+.anim{
+	animation: up 0.6s 1 0s normal both;
+}
+.anim1{
+	animation: down 0.6s 1 0s normal both;
+}
+.plsanim{
+	animation: plsup 0.6s 1 0s normal both;
+}
+.plsanim1{
+	animation: plsdown 0.6s 1 0s normal both;
+}
+#errorOTHERBOARDDIP,#errorOTHERSPECDIP,#errorOTHERCOUNDIP,#errorOTHERSTATEDIP{
+	/*display: flex;*/
+	position: absolute;
+	top: 160px;
+}
+
+.otherdivDip{
+	position: relative;
+	display: none;
+	width: 48%;
+}
+#errorSCHOOLDIP,#errorGRADEDIP{
+	/*display: flex;*/
+}
+#errorBOARDDIP,#errorSPECDIP,#errorCOUNDIP,#errorSTATEDIP{
+	/*display: flex;*/
+	position: absolute;
+	top: 70px;
+	/*display: none;*/
+}
+
+#errorPASSINGDIP{
+	/*display: flex;*/
+	position: absolute;
+	top: 110px;
+
+}
+@keyframes up{
+	from{
+		transform: translateY(0px);
+		 
+	}
+	to{
+		transform:translateY(-22px);	
+	}
+}
+@keyframes down{
+	from{
+		transform: translateY(-22px);
+		 
+	}
+	to{
+		transform:translateY(0px);	
+	}
+}
+@keyframes plsup{
+	from{
+		transform: translateY(0px) scale(1.0);
+		 
+	}
+	to{
+		transform:translateY(-18px) scale(0.7);	
+	}
+} 
+@keyframes plsdown{
+	from{
+		transform: translateY(-18px) scale(0.7);
+		 
+	}
+	to{
+		transform:translateY(0px) scale(1);	
+	}
+} 
+.warnDip{
+	/*border: 1px solid;*/
+	width: max-content;
+	/*display: flex;*/
+	margin-top: -12px;
+	padding-top: -30px;
+	margin-left: 13px;
+	letter-spacing: 0.1px;
+	margin-bottom: 15px;
+	display: none;
+}
+.warnDip img{
+	margin-top: -1.2px;
+	margin-left: 2.5px;
+}
+.warnDip label{
+	font-family:"Roboto" ;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 400;
+	color: #de350b;
+	margin-left: -4.5px;
+	margin-top: -0.1px;
+}
+
+
+/*board*/
+#boardDip{
+	padding-bottom: 60px;
+}
+#boardNameDip{
+	margin-left: 3%;
+	
+	margin-top: -15px;
+}
+
+#gradeNameDip{
+	width: 80%;
+}
+
+@media screen and (max-width: 600px)
+{
+	#headerImg{
+		margin-left: -10%;
+	}
+	#info{
+		margin-left: 2.5%;
+	}
+	#allPerc{
+
+		width: 88%;
+		margin-left: 5.7%;
+	}
+	#allPerc p{
+		width: 90%;
+	}
+	#DIP{
+		width: 95%;
+		margin-left: 2.5%;
+	}
+	.headOfDiv{
+		padding-top: 16px;
+	}
+	#degreeDip{
+		height: 175px;
+		/*height: 190px;*/
+	}
+	#degNameDip{
+		position: absolute;
+		left: 40px;
+	}
+	#errorDEGREEDIP{
+		position: absolute;
+		top: 185px;
+		left: 20px;
+	}
+	#degRadio1Dip{
+		width: 100%;
+		position: absolute;
+		left: 30px;
+	}
+	#degRadio2Dip{
+		width: 100%;
+		position: absolute;
+		left: 30px;
+		top: 120px;
+	}
+	.inpDivDip{
+		width: 93%;
+	}
+	#schParaDip{
+		width: 87%;
+	}
+	/*.warn{
+		display: none;
+	}
+	#errorDEGREE{
+		display: none;
+	}*/
+	input[type=text],input[type=number]{
+		width: 88%;
+	}
+	#boardName{
+		margin-left: 8%;
+	}
+	select{
+		border: 1px solid #e0e0e0;
+		height: 65px;
+		box-sizing: border-box;
+		padding-bottom: 10px;
+		border-radius: 5px;
+		padding-top: 15x !important;
+		padding-left: 10px;
+		padding-bottom: 0px;
+	}
+	#selectDivDip{
+		width: 92%;
+		margin-top: 20px;
+		margin-left: 15px;
+		height: 35px;
+		position: relative;
+	}
+	#selectDivDip img{
+		position: absolute;
+		top: 21px;
+		right: 7px;
+	}
+	#selectDivDip label{
+		position: absolute;
+		left: 6px;
+		top: -4.5px;
+		font-size: 15px;
+		font-family: arial;
+		font-weight: normal;
+		font-style: normal;
+		opacity: 0.9;
+		height: 10px;
+		width: 16px;
+		background-color: #fff;
+		color: red;
+	}
+	.othertextDip{
+		margin-top: 50px;
+		padding-top: 0px;
+		border: 1px solid red;
+	}
+	.otherdivDip{
+		display: none;
+	}
+	#selectDivDip label{
+		position: absolute;
+		top: 18px;
+		opacity: 1;
+		width: 7px;
+		padding: 0px 2px;
+	}
+	select:focus{
+		border: 2px solid #8626c3;
+	}
+	#schDivDip label{
+		position: absolute;
+		left: 20px;
+		top: 115px;
+	}
+	#gradeDivDip label{
+		position: absolute;
+		left: 20px;
+		top: 75px;
+	}
+	#boardDip{
+		/*border: 1px solid ;*/
+		padding-bottom: 90px;
+	}
+	#errorBOARDDIP,#errorSPECDIP,#errorCOUNDIP,#errorSTATEDIP{
+		position: absolute;
+		top: 95px;
+	}
+	#errorPASSINGDIP{
+		position: absolute;
+		top: 120px;
+	}
+	#errorGRADEDIP{
+		position: absolute;
+		top: 130px;
+	}
+}
+#specError{
+	margin-left: -20px;
+	width: 103.7%;
+	height: 30px;
+	background-color: red;
+	color: white;
+	font-size: 16px;
+	font-family: "roboto";
+	font-weight: 700;
+	padding-left: 20px;
+	padding-top: 5px;
+	box-sizing: border-box;
+	display: none;
+}
+#specError span{
+	color: yellow;
+}

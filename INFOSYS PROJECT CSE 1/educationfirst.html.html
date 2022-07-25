@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Infosys Limited Recruitment</title>
+	<link rel="icon" href="logo.png">
+	<link rel="stylesheet" type="text/css" href="infosys1.css">
+	<link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<script type="text/javascript" src="infosys.js"></script>
+</head>
+<body class="bg_error">
+	<div id="bg">
+	<div id="header">
+			<center>
+				<img src="infosys.png" style="height: 100px;">
+			</center>
+		</div>
+	<div id="main">
+		<div id="lines">
+			<p id="p1"><b>Infosys Limited Recruitment</b></p>
+			<p id="p2">Electronis City,Hosur Road,Bangalore-560100,India</p>
+			<p id="p3"><b>APPLICATION FOR EMPLOYMENT</b></p>
+			<p id="p4">Personal Details</p>
+		</div>
+		<div class="question" id="gender">
+				<div class="warning wone">&#9888;This field is required</div>
+				<div class="inques">
+				<p id="gender"><b>1.GENDER</b></p>
+				<input type="radio" name="gender" id="r1" onclick="fwar();"><label id="male" style="padding-left:10px; padding-right:350px;"> MALE </label>
+				<input type="radio" name="gender" id="r2" onclick="fwar();"> <label id="female" style="padding-left:10px;"> FEMALE</label><br><br>
+				<input type="radio" name="gender" id="r3" onclick="fwar();"> <label id="disclose" style="padding-left:10px;">I don't want to disclose</label>
+				</div>
+			</div>
+		<div class="question" id="firstname">
+			<div class="warning wtwo">&#9888; This field is required</div>
+			<div class="inques">
+			<p><b>2.First Name</b></p>
+			<p class="p1">As it appears on passport / legal document</p>
+			<p  class="font">Please do not key in any personally identifiable information belonging to you or any other person(s) which is unrelated to the business purpose of this survey</p>
+			<input type="text" id="field1" placeholder="*" onkeyup="fname();">
+			</div>
+		</div>
+		<div class="question" id="lastname">
+			<div class="warning wthree">&#9888; This field is required</div>
+			<div class="inques">
+			<p><b>3.Last Name</b></p>
+			<p class="p1">As it appears on passport / legal document</p>
+			<p  class="font">Please do not key in any personally identifiable information belonging to you or any other person(s) which is unrelated to the business purpose of this survey</p>
+			<input type="text" id="field2" placeholder="*" onkeyup="lname();">
+			</div>
+		</div>
+		<div class="question" id="email">
+			<div class="warning wfour">&#9888; This field is required</div>
+			<div class="inques">
+			<p><b>4.Primary email address</b></p>
+			<p class="p1">Personal E-mail ID only</p>
+			<p  class="font">Please do not key in any personally identifiable information belonging to you or any other person(s) which is unrelated to the business purpose of this survey</p>
+			<input type="text" id="field3" placeholder="*" onkeyup="email();">
+			</div>
+		</div>
+		<div class="question" id="photo">
+			<div class="warning wfive">&#9888;Profile Picture is required</div>
+			<div class="inques">
+			<p><b>5. Upload recent passport size color photo</b></p>
+			<p class="p1">Please ensure the photograph size is within 512KB</p>
+			<p  class="font">Image file with size upto 5MB</p><br>
+			<button type="button" class="btn-warning">
+				<i class="fa-fa-upload"></i>Upload Image<input type="file" accept="image/*">
+			</button>
+			</div>
+		</div>
+		<div class="question" id="resume">
+			<div class="warning wsix">&#9888; Resume is required</div>
+			<div class="inques">
+			<p><b>6. Upload your resume.</b></p>
+			<p class="p1">Upload resume only in PDF and please ensure resume size is within 2MB.</p>
+			<p  class="font" id="pspk">Up to 1 file, only pdf with max size of 5MB</p>
+			<div id="resume1"> 
+				<center>
+					    <a href="#" style="text-decoration: none; display: table-cell;">Drag and Drop file<br>or<br></a>
+						<button type="button" class="btn-warning">
+							<i class="fa-fa-upload"></i> Browse<input type="file">
+						</button>
+					</center>
+			</div>
+			<div id="uploaded">
+				Uploaded Files:
+			</div>
+			</div>
+		</div>
+		<div class="question" id="contactnum">
+			<div class="warning wseven" id="t">&#9888; Do provide values for all the fields</div>
+			<div class="inques">
+					<p class="P12"><b>7. Preferred contact number</b></p><br>
+					<div id="country" style="display:inline;">
+						<label class="font">Country code*</label>
+						<br>
+						<select class="select1"><option value="ind" id="in">(+91)IND</option><option value="usa" id="us">(+1)USA</option></select>
+					</div>
+					<div id="phn" style="display:inline ;">
+						<input type="number" id="field5" placeholder="Phone number *" onchange="phnum();">
+					</div>
+				</div>
+			</div>
+			<div class="question">
+				<div class="warning weight" id="t1">&#9888; Do provide values for all the fields</div>
+				<div class="inques">
+					<div id="code2">
+						<p class="P13"><b>8. Alternate contact number</b><label class="font">(optional)</label></p><br>
+					<div id="country" style="display:inline;">
+						<label class="font">Country code</label>
+						<br>
+						<select class="select1" style="width:290px; height: 40px; margin-right:40px; border-top:none; border-left:none; border-right:none;"><option value="ind" id="in1">(+91)IND</option><option value="usa" id="us1">(+1)USA</option></select>
+					</div>
+					<div id="phn" style="display:inline ;">
+						<input type="number" id="field5" class="sd23" placeholder="Phone number" onchange="phnum1();">
+					</div>
+				</div>
+					</div>
+				</div>
+		<div class="question" id="dob">
+			<div class="warning wnine" id="rt">&#9888; Date of birth is required</div>
+			<div class="inques">
+				<p><b>9. Date of birth</b></p>
+				<p class="font">As per passport / legal document</p>
+				<!--<label><pre>Date<i style="color: red;">*</i> -->    
+				<input type="date" id="field6"  style="font-size: 20px;" onchange="daate();">
+				</div>
+			</div>
+			<div class="question" id="citizenship">
+				<div class="warning wten">&#9888; The field is required</div>
+				<div class="inques">
+				<p><b>10.Citizenship(s)</b></p>
+				<p  class="font">Please do not key in any personally identifiable information belonging to you or any other person(s) which is unrelated to the business purpose of this survey
+				</p>
+				<input type="text" id="field7" placeholder="*" onkeyup="Citizenship();">
+				</div>
+				</div>
+				<div class="question" id="citizenship">
+					<div class="warning wten" id="r3">&#9888; The field is required</div>
+					<label class="inques rado"><b>11.Do you have a passport?</b><button id="yes">YES</button><button id="no">NO</button></lable>
+						<label><i class='bx bx-check-circle'></i><i class='bx bx-x-circle'></i></label>
+				</div>
+			<div class="question" id="housenum">
+				<!-- <div class="warning wtwelve">&#9888; The field value is required</div> -->
+				<div class="inques">
+				<p id="address" style="padding-top: 20px;"><b>12. Address For Communication</b></p>
+				<hr id="hr1">
+				<p id="street"><b>Street/House Number</b></p>
+				<p  class="font">Please do not key in any personally identifiable information belonging to you or any other person(s) which is unrelated to the business purpose of this survey</p>
+				<input type="text" id="field8" placeholder="*" onkeyup="address();">
+				<div 
+				style="color:#DE350B;font: 16px roboto; margin-top: 20px;background-color:white;" class="warning" id="ui"><i class='bx bx-x-circle' id="icon" style="position:relative;left: 0px;font-size: 20px;"></i>  This field value is required</div>
+				<hr id="hr2">
+				<p id="address2"><b>Address Line2</b>(optional)</p>
+				<p  class="font" id="street2">Please do not key in any personally identifiable information belonging to you or any other person(s) which is unrelated to the business purpose of this survey</p>
+				<textarea name="textarea" id="area" cols="120" rows="5"></textarea>
+				<hr id="hr3">
+				<p id="pincode"><b>Pincode</b></p>
+				<label><input type="text" placeholder="*" id="field10"></label><label><input type="text" id="field10_1" placeholder="State"></label><label><input type="text" id="field10_2" placeholder="District"></label><label><input type="text" id="field10_3" placeholder="City"></label>
+				<label placeholder="Post Office"><select id="post"><option></option></select></label>
+				<span class="warning" style="color:#DE350B;font: 16px roboto; margin-top: 20px;"><i class='bx bx-x-circle' id="icon1"></i>  Do provide an input for State,District,City,Post Office. These fields are required</span>
+				</div>
+			</div>
+			<center>
+				<a href="#"><button id="next" onclick="return nextpage();">NEXT PAGE</button></a>
+			</center>
+</div>
+<div class="df">
+	<div class="error">
+		Errors
+	</div>
+	<div>
+		<div>
+			<lable class="p22">
+				Question
+			</lable>
+			<label class="p20" colspan="2">
+				Error
+			</label>
+			<label class="p21">
+				Action
+			</label>
+		</div>
+		<a href="#gender">
+		<div class="sd">
+			<label class="p40">
+				GENDER
+			</label>
+			<label class="p41" >
+				This field is required
+			</label>
+			<label>
+				<img src="eye.png" class="eye">
+			</label>
+		</div>
+		</a>
+		<a href="#firstname">
+		<div class="sd">
+			<label class="p40">
+				First name
+			</label>
+			<label class="p42">
+				This field is required
+			</label>
+			<label>
+				<img src="eye.png" class="eye">
+			</label>
+		</div>
+		</a>
+		<a href="lastname">
+		<div class="sd">
+			<label class="p40">
+				Last name
+			</label>
+			<label class="p42">
+				This field is required
+			</label>
+			<label>
+				<img src="eye.png" class="eye">
+			</label>
+		</div>
+		</a>
+		<a href="email">
+		<div class="sd">
+			<label class="p40">
+				Primary email address
+			</label>
+			<label class="p43" >
+				This field is required
+			</label>
+			<label>
+				<img src="eye.png" class="eye">
+			</label>
+		</div>
+		</a>
+		<a href="#photo">
+		<div class="sd">
+			<label class="p40">
+				Upload recent passport size color photo
+			</label>
+			<label class="p44" >
+				Profile Picture is required
+			</label>
+			<label>
+				<img src="eye.png" class="eye1">
+			</label>
+		</div>
+		</a>
+		<a href="#resume">
+		<div class="sd">
+			<label class="p40">
+				Upload your resume
+			</label>
+			<label class="p45" >
+				Resume is required
+			</label>
+			<label>
+				<img src="eye.png" class="eye2">
+			</label>
+		</div>
+		</a>
+		<a href="#contactnum">
+		<div class="sd">
+			<label class="p40">
+				Preferred contact number
+			</label>
+			<label class="p46">
+				Do provide values fro all the fields
+			</label>
+			<label>
+				<img src="eye.png" class="eye3">
+			</label>
+		</div>
+		</a>
+		<a href="#dob">
+		<div class="sd">
+			<label class="p40">
+				Date of Birth
+			</label>
+			<label class="p47">
+				Date of birth is required
+			</label>
+			<label>
+				<img src="eye.png" class="eye4">
+			</label>
+		</div></a>
+		<a href="#citizenship">
+		<div class="sd">
+			<label class="p40">
+				CITIZENSHIP(s)
+			</label>
+			<label class="p48">
+				This field is required
+			</label>
+			<label>
+				<img src="eye.png" class="eye">
+			</label>
+		</div>
+		</a>
+		<a href="#passport">
+		<div class="sd">
+			<label class="p40">
+				Do you have a passport?
+			</label>
+			<label class="p49">
+				This field is required
+			</label>
+			<label>
+				<img src="eye.png" class="eye">
+			</label>
+		</div>
+		</a>
+		<a href="#housennum">
+		<div class="sd">
+			<label class="p40">
+				Street/House Number
+			</label>
+			<label class="p50">
+				This field is required
+			</label>
+			<label>
+				<img src="eye.png" class="eye8">
+			</label>
+		</div>
+		</a>
+		<a href="#pincode">
+		<div class="sd">
+			<label class="p40">
+				Pincode
+			</label>
+			<label class="p51">
+				Do provide an input for State,District,City,Post Office. These fields are required
+			</label>
+			<label>
+				<img src="eye.png" class="eye7">
+			</label>
+		</div>
+		</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

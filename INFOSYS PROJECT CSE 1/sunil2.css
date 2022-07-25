@@ -1,0 +1,238 @@
+body{
+	overflow-x: hidden;
+	padding:0px;
+	margin: 0px;
+	background-color: #cfe2f3;
+	width:100%;
+}
+#header{
+	margin: 0px;
+	width: 100%;
+	height: 110px;
+	background-color: #fff;
+	box-shadow: 0px 6px 4px #c1d2e2;
+	position: relative;
+}
+#headerImg{
+	position: absolute;
+	top: 20px;
+	left: 44.2%;
+	height: 80px;
+	width: 158px;
+}
+#info{
+	width: max-content;
+	margin-top: 9px;
+	margin-left: 8.5%;
+	padding: 0px;
+}
+#info1,#info3{
+	line-height: 19px !important;
+	font-size: 19px;
+	font-style: normal;
+}
+#info1{
+	font-family: "Roboto";
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+#info3{
+	letter-spacing: 0.3px;
+	/*word-spacing: 0.4px;*/
+	margin-top: -3px;
+
+	margin-bottom: 14px;
+	font-weight: 700;
+	font-family: "Roboto";
+}
+#info2,#info4{
+	margin-bottom:13px;
+	line-height: 18px;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: "Roboto";
+}
+
+.para{
+	position:relative;
+	left:8%;
+	width: 100%;
+	font-family:"Roboto";
+	font-size:17px;
+	font-weight:600;
+	height:5px;
+}
+.para_two{
+	position:relative;
+	left:8%;
+	width: 100%;
+	font-family:"Roboto";
+	font-size:17px;
+	height:5px;
+}
+.card{
+	margin-left:8%;
+	margin-right:8%;
+	background-color:white;
+	box-shadow:10px 10px 10px #c1d2e2;
+
+}
+.card_two{
+	padding-top:2px;
+	padding-left:16px;
+	margin-left:8%;
+	margin-right:8%;
+	background-color:white;
+	box-shadow:4px 4px 4px 4px #c1d2e2;
+
+}
+.questions{
+	font-family:"Roboto";
+	font-size:17px;
+	font-weight:bold;
+}
+.buttons{
+	font-weight:bold;
+	font-family:"Roboto";
+	background-color:white;
+	border-radius:25px;
+	width:100px;
+	height:35px;
+	border-width:2px solid #e3e7eb;
+}
+.subcard{
+	display:inline-block;
+	width:49.8%;
+	padding-bottom:80px;
+}
+.subdatecard{
+	display:inline-block;
+	width:49.8%;
+	margin-top:-15px;
+	box-sizing:border-box;
+
+}
+#dates{
+	padding-bottom:5px;
+}
+.lbuttons{
+	background-color:black;
+	font-family:"Roboto";
+	font-size:18px;
+	color:white;
+	font-weight:bold;
+	width:240px;
+	padding:10px;
+	border-width:0px;
+	border-radius:10px;
+	margin-right:5px;
+}
+.buttons i{
+	margin-left:-35px;
+	margin-right:5px;
+}
+.buttons:hover{
+	background-color:rgb(250, 202, 250);
+	color:white;
+	border-color:rgb(158, 92, 158);
+	color:rgb(160, 92, 160);
+}
+.buttons:focus{
+	background-color:rgb(250, 202, 250);
+	color:white;
+	border-color:rgb(158, 92, 158);
+	color:rgb(160, 92, 160);
+}
+#quesOneYes:focus{
+	background-color:rgb(250, 202, 250);
+	border-color:rgb(158, 92, 158);
+	color:rgb(160, 92, 160);
+
+}
+#quesOneYes:hover{
+	background-color:rgb(250, 202, 250);
+	border-color:rgb(158, 92, 158);
+	color:rgb(160, 92, 160);
+
+}
+#quesOneNo:focus{
+	background-color:rgb(197, 191, 191);
+	border-color:rgb(151, 147, 147);
+	color:rgb(155, 146, 146);
+
+}
+#quesOneNo:hover{
+	background-color:rgb(226, 216, 216);
+	border-color:rgb(151, 147, 147);
+	color:rgb(151, 147, 147);
+
+}
+#quesOneNo i{
+	margin-left:-35px;
+	margin-right:5px;
+
+}
+#quesOneYes i{
+	margin-left:-35px;
+	margin-right:5px;
+
+}
+#quesOneNo{
+	font-weight:bold;
+	font-family:"Roboto";
+	background-color:white;
+	border-radius:25px;
+	width:100px;
+	height:35px;
+	border-width:2px solid #e3e7eb;
+}
+#quesOneYes{
+	font-weight:bold;
+	font-family:"Roboto";
+	background-color:white;
+	border-radius:25px;
+	width:100px;
+	height:35px;
+	border-width:2px solid #e3e7eb;
+}
+.error{
+	height: 180px;
+	margin-top: 10px;
+	border-radius: 25px;
+    background-color:#e3e7eb;
+	margin-bottom:20px;
+	font-family:"Roboto";
+}
+.error1{
+	font-family:"Roboto";
+	margin-top: 80px;
+	border-radius: 25px;
+    background-color:#e3e7eb;
+	padding-bottom:20px;
+}
+#requiredText{
+	color:white;
+	font-family:"Roboto";
+	padding:7px;
+	font-size:14px;
+	background-color:rgb(255, 8, 8);
+	margin-bottom:-15px;
+	padding-left:30px;
+	font-weight:500;
+	margin-top:-10px;
+}
+#secondpageerrors hr{
+	opacity:0.2;
+}
+.error1 img{
+	height:28px;
+	width:28px;
+	opacity:0.6;
+}
+.dateErrorMsg{
+	font-family:"Roboto";
+	font-size:16px;
+	color:red;
+	margin-top:-12px;
+	visibility:hidden;
+}

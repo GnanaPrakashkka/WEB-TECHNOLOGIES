@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Infosys Limited Recruitement</title>
+	<link rel="stylesheet" type="text/css" href="sunil1.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<script type="text/javascript" src="jQuery.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<header>
+		<div id="header">
+			<img id="headerImg" src="name.png">
+		</div>
+	</header>
+	<section>
+		<div id="info">
+				<div id="info1">Infosys Limited Recruitment</div>
+				<div id="info2">Electronics City, Hosur Road, Bangalore - 560100, India</div>
+				<div id="info3">APPLICATION FOR EMPLOYMENT</div>
+				<div id="info4">EDUCATION</div>
+		</div>
+		<div id="allPerc">
+			<p>All <span>percentages/CGPA</span> should be simple average of all your subjects/semesters/years, including electives, optional subjects, additional subjects, practicals, and languages</p>
+		</div>
+	</section>
+	<main>
+		<form>
+		<!-- SSLC Field starts -->
+			<div id="SSLC">
+
+				<div class="headOfDiv">
+					<div class="Sn">1.</div><div class="h">X/SSLC/Junior/Equivalent</div>
+				</div>
+				<div class="inpDiv" id="degree">
+					<div class="inpname" id="degName">Degree</div>
+					<div id="degRadio1">
+						<input type="radio" onclick="radiofun()" name="r" id="inDeg1"><label>Secondary School Leaving Cert.</label>
+					</div>
+					<div id="degRadio2">
+						<input type="radio" onclick="radiofun()" name="r" id="inDeg2"><label>Others</label>
+					</div>
+					<div id="errorDEGREE"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div>
+				</div>
+				<div class="inpDiv" id="school">
+					<div class="inpname" id="schName">School</div>
+					<p id="schPara">Please do not key in any personally identifiable information belonging to you or any other person(s) which is unrelated to the business purpose of this survey</p>
+					<div id="schDiv">
+						<input type="text" name="s" id="X/SSLC/Junior/EquivalentSchool" class="inpSchool" placeholder="" onfocusout="othercheck(this)">
+						<label id="star6" class="dummy">*</label>
+					</div>
+					<div class="warn"  id="errorSCHOOL"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field value is required</label></div> 
+				</div>
+				<div  class="inpDiv" id="board">
+					<div class="inpname"  id="boardName">Board</div>
+					<div style="position: relative;">
+						<div id="selectDiv">
+							<select  onchange="please(this)" id="X/SSLC/Junior/EquivalentBoard" onfocusout="check(this)">
+								<option selected></option>
+								<option>A P J Abdul Kalam Technological University-Trivand</option>
+								<option>rgukt-nuzvid</option>
+								<option>rgukt-ongole</option>
+							</select>
+							
+							<label id="star1" class="dummy">*</label>
+							<img src="down.png">
+						</div>
+
+						<div class="otherdiv" id="otherdiv1">
+							<input type="text" class="othertext" name="t" id="otherTextBoard" placeholder="" onfocusout="othercheck(this)">
+							<label style="font-family: Roboto;font-style: normal;font-weight: 400;font-size: 16px;line-height: 18px;color: #000;position: absolute;top: 61.5px;left: 17.1px;" id="pls1" class="dummy">Please Specify<span id="red1">*</span></label>
+						</div>
+
+						<div class="warn" class="warnOther"  id="errorOTHERBOARD"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div> 
+						<div class="warn" class="warnDrop"  id="errorBOARD" style="po"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div> 
+					</div>
+				</div>
+				<div  class="inpDiv" id="board">
+					<div class="inpname"  id="boardName">Specialization</div>
+					<div style="position: relative;">
+						<div id="selectDiv">
+							<select  id="X/SSLC/Junior/EquivalentSpecialization" onchange="please(this)" onfocusout="check(this)">
+								<option selected></option>
+								<option>Science</option>
+								<option>PCME</option>
+								<option>PCMCs</option>
+								<option>PCMB</option>
+								<option>PCM</option>
+								<option>PCB</option>
+								<option>General</option>
+							</select>
+							
+							<label id="star2" class="dummy">*</label>
+							<img src="down.png">
+						</div>
+
+						<div class="otherdiv" id="otherdiv2">
+							<input type="text" class="othertext" name="t" id="otherTextSpec" placeholder="" onfocusout="othercheck(this)">
+							<label style="font-family: Roboto;font-style: normal;font-weight: 400;font-size: 16px;line-height: 18px;color: #000;position: absolute;top: 61.5px;left: 17.1px;" id="pls2" class="dummy">Please Specify<span id="red2">*</span></label>
+						</div>
+						
+						<div class="warn" id="errorOTHERSPEC"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div> 
+						<div class="warn" class="warnDrop"  id="errorSPEC"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div> 
+					</div>
+				</div>
+				<div  class="inpDiv" id="board">
+					<div class="inpname"  id="boardName">Country</div>
+					<div style="position: relative;">
+						<div id="selectDiv">
+							<select id="X/SSLC/Junior/EquivalentCountry" onchange="please(this)" onfocusout="check(this)">
+								<option selected></option>
+								<option>india</option>
+								<option>australia</option>
+								<option>england</option>
+								<option>pakisthan</option>
+								
+							</select>
+							
+							<label id="star3" class="dummy">*</label>
+							<img src="down.png">
+						</div>
+						
+						<div class="otherdiv" id="otherdiv3">
+							<input type="text" class="othertext" name="t" id="otherTextCoun" placeholder="" onfocusout="othercheck(this)">
+							<label
+							style="font-family: Roboto;font-style: normal;font-weight: 400;font-size: 16px;line-height: 18px;color: #000;position: absolute;top: 61.5px;left: 17.1px;" class="pls" id="pls3" class="dummy">Please Specify<span id="red3">*</span></label>
+						</div>
+
+						<div class="warn" class="warnOther"  id="errorOTHERCOUN"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div> 
+						<div class="warn" class="warnDrop"  id="errorCOUN"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div> 
+					</div>
+				</div>
+				<div  class="inpDiv" id="board">
+					<div class="inpname"  id="boardName">State</div>
+					<div style="position: relative;">
+						<div id="selectDiv">
+							<select  id="X/SSLC/Junior/EquivalentState" onchange="please(this)" onfocusout="check(this)" >
+								<option selected></option>
+								<option>Andhra</option>
+								<option>Telanga</option>
+								<option>jammu</option>
+								<option>kerala</option>
+								
+							</select>
+							
+							<label id="star4" class="dummy">*</label>
+							<img src="down.png">
+						</div>
+						
+						<div class="otherdiv" id="otherdiv4">
+							<input type="text" class="othertext" name="t" id="otherTextState" placeholder="" onfocusout="othercheck(this)">
+							<label
+							style="font-family: Roboto;font-style: normal;font-weight: 400;font-size: 16px;line-height: 18px;color: #000;position: absolute;top: 61.5px;left: 17.1px;" class="pls" id="pls4" class="dummy">Please Specify<span id="red4">*</span></label>
+						</div>
+
+						<div class="warn" class="warnOther"  id="errorOTHERSTATE"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div> 
+						<div class="warn" class="warnDrop"  id="errorSTATE"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div> 
+					</div>
+				</div>
+				<div class="inpDiv" id="postgrade">
+					<div class="inpname" id="gradeName">Simple Average percentage/CGPA/Grade for all semesters/years</div>
+					<div id="postgradeDiv">
+						<input type="number" name="s" id="X/SSLC/Junior/EquivalentSimple" class="inpGrade" onfocusout="othercheck(this)"  placeholder="">
+						<label id="star5" class="dummy">*</label>
+					</div>
+					<div class="warn"  id="errorGRADE"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field value is required</label></div> 
+				</div>
+				<div class="inpDiv" id="postpassing">
+					<div class="inpname" id="passingName">Passing month and year</div>
+					<div id="postpassingDiv">
+						<input type="date" name="s" id="X/SSLC/Junior/EquivalentPassing" class="inpPassing" onfocusout="othercheck(this)" placeholder="">
+					</div>
+					<div class="warn"  id="errorPASSING"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field value is required</label></div> 
+				</div>
+			</div>
+		<!-- SSLC Field ends -->
+		<!-- 2 starts -->
+		 <div class="excess">
+		 	<div id="specError"><span>&#9888;&nbsp;</span> Field is required</div>
+            <h2 class="hfour">2. Please provide either Class XII or Diploma details.</h2>
+            
+            <div class="box1">&nbsp;<input onclick="cboxfun()" type="checkbox" class="cb1" id="XIIopen">&nbsp; &nbsp; XII Standard</div>
+            <a id="diopentest"></a>
+            <div class="box2"><input onclick="cboxfun()" type="checkbox" id="dipopen" class="cb1">&nbsp;&nbsp; Diploma</div>
+        </div>
+   		<!-- 2 ends -->
+   		<!-- Xii starts-->
+   		<div id="XII" style="display:none">
+
+				<div class="headOfDiv">
+					<div class="Sn">3.</div><div class="h">XII-Standard</div>
+				</div>
+				<div class="inpDivXii" id="degreeXii">
+					<div class="inpnameXii" id="degNameXii">Degree</div>
+					<div id="degRadio1Xii">
+						<input type="radio" name="r" id="inDeg1Xii"><label>Pre-University Course</label>
+					</div>
+					<div id="degRadio2Xii">
+						<input type="radio" name="r" id="inDeg2Xii"><label>Higher Secondary School Certificate</label>
+					</div>
+					<div id="degRadio3Xii">
+						<input type="radio" name="r" id="inDeg3Xii"><label>Others</label>
+					</div>
+					<div id="errorDEGREEXII"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div>
+				</div>
+				<div class="inpDivXii" id="schoolXii">
+					<div class="inpnameXii" id="schNameXii">School</div>
+					<p id="schParaXii">Please do not key in any personally identifiable information belonging to you or any other person(s) which is unrelated to the business purpose of this survey</p>
+					<div id="schDivXii">
+						<input type="text" id="XII-StandardSchool" onfocusout="othercheck(this)" name="s" class="inpSchoolXii" placeholder="">
+						<label id="star100" class="dummy">*</label>
+					</div>
+					<div class="warnXii"  id="errorSCHOOLXII"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field value is required</label></div> 
+				</div>
+				<div  class="inpDivXii" id="boardXii">
+					<div class="inpnameXii"  id="boardNameXii">Board</div>
+					<div style="position: relative;">
+						<div id="selectDivXii">
+							<select id="XII-StandardBoard" onchange="please(this)" onfocusout="check(this)">
+								<option selected></option>
+								<option>A P J Abdul Kalam Technological University-Trivand</option>
+								<option>rgukt-nuzvid</option>
+								<option>rgukt-ongole</option>
+								
+							</select>
+							<label id="star101" class="dummy">*</label>
+							<img src="down.png">
+						</div>
+
+						<div class="otherdivXii" id="otherdiv1Xii">
+							<input type="text" class="othertextXii" name="t" id="otherTextBoardXii" placeholder="" 
+							onfocusout="othercheck(this)">
+							<label style="font-family: Roboto;font-style: normal;font-weight: 400;font-size: 16px;line-height: 18px;color: #000;position: absolute;top: 61.5px;left: 17.1px;" id="pls101" class="dummy">Please Specify<span id="red101">*</span></label>
+						</div>
+
+						<div class="warnXii" class="warnOtherXii"  id="errorOTHERBOARDXII"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div> 
+						<div class="warnXii" class="warnDropXii"  id="errorBOARDXII" style="po"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div> 
+					</div>
+				</div>
+				<div  class="inpDivXii" id="boardXii">
+					<div class="inpnameXii"  id="boardNameXii">State</div>
+					<div style="position: relative;">
+						<div id="selectDivXii">
+							<select id="XII-StandardState"  onchange="please(this)" onfocusout="check(this)" >
+								<option selected></option>
+								<option>Andhra</option>
+								<option>Telanga</option>
+								<option>jammu</option>
+								<option>kerala</option>
+							</select>
+							
+							<label id="star104" class="dummy">*</label>
+							<img src="down.png">
+						</div>
+						
+						<div class="otherdivXii" id="otherdiv4Xii">
+							<input type="text" class="othertextXii" name="t" id="otherTextStateXii" placeholder="" 
+							onfocusout="othercheck(this)">
+							<label
+							style="font-family: Roboto;font-style: normal;font-weight: 400;font-size: 16px;line-height: 18px;color: #000;position: absolute;top: 61.5px;left: 17.1px;" class="pls" id="pls104" class="dummy">Please Specify<span id="red104">*</span></label>
+						</div>
+
+						<div class="warnXii" class="warnOtherXii"  id="errorOTHERSTATEXII"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div> 
+						<div class="warnXii" class="warnDropXii"  id="errorSTATEXII"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div> 
+					</div>
+				</div>
+				<div  class="inpDivXii" id="boardXii">
+					<div class="inpnameXii"  id="boardNameXii">Country</div>
+					<div style="position: relative;">
+						<div id="selectDivXii">
+							<select id="XII-StandardCountry"  onchange="please(this)" onfocusout="check(this)" >
+								<option selected></option>
+								<option>india</option>
+								<option>australia</option>
+								<option>england</option>
+								<option>pakisthan</option>
+							</select>
+							<label id="star103" class="dummy">*</label>						
+							<img src="down.png">
+						</div>
+						
+						<div class="otherdivXii" id="otherdiv3Xii">
+							<input type="text" class="othertextXii" name="t" id="otherTextCounXii" placeholder="" onfocusout="othercheck(this)">
+							<label
+							style="font-family: Roboto;font-style: normal;font-weight: 400;font-size: 16px;line-height: 18px;color: #000;position: absolute;top: 61.5px;left: 17.1px;" class="pls" id="pls103" class="dummy">Please Specify<span id="red103">*</span></label>
+						</div>
+
+						<div class="warnXii" class="warnOtherXii"  id="errorOTHERCOUNXII"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div> 
+						<div class="warnXii" class="warnDropXii"  id="errorCOUNXII"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div> 
+					</div>
+				</div>
+
+				<div  class="inpDivXii" id="boardXii">
+					<div class="inpnameXii"  id="boardNameXii">Branch/Stream/Area of Specialization</div>
+					<div style="position: relative;">
+						<div id="selectDivXii">
+							<select id="XII-StandardBranch"  onchange="please(this)" onfocusout="check(this)" >
+								<option selected></option>
+								<option>Science</option>
+								<option>PCME</option>
+								<option>PCMCs</option>
+								<option>PCMB</option>
+								<option>PCM</option>
+								<option>PCB</option>
+								<option>General</option>
+								<option>Others</option>
+							</select>
+							
+							<label id="star102" class="dummy">*</label>
+							<img src="down.png">
+						</div>
+
+						<div class="otherdivXii" id="otherdiv2Xii">
+							<input type="text" class="othertextXii" name="t" id="otherTextSpecXii" placeholder="" onfocusout="othercheck(this)">
+							<label style="font-family: Roboto;font-style: normal;font-weight: 400;font-size: 16px;line-height: 18px;color: #000;position: absolute;top: 61.5px;left: 17.1px;" id="pls102" class="dummy">Please Specify<span id="red102">*</span></label>
+						</div>
+						
+						<div class="warnXii" id="errorOTHERSPECXII"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div> 
+						<div class="warnXii" class="warnDropXii"  id="errorSPECXII"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div> 
+					</div>
+				</div>
+				
+				
+
+				<div class="inpDivXii" id="gradeXii">
+					<div class="inpnameXii" id="gradeNameXii">Simple Average percentage/CGPA/Grade for all semesters/years</div>
+					<div id="gradeDivXii">
+						<input type="number" name="s" id="XII-StandardSimple" class="inpGradeXii" onfocusout="othercheck(this)" placeholder="">
+						<label id="star105" class="dummy">*</label>
+					</div>
+					<div class="warnXii"  id="errorGRADEXII"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field value is required</label></div> 
+				</div>
+				<div class="inpDivXii" id="passingXii">
+					<div class="inpnameXii" id="passingNameXii">Passing month and year</div>
+					<div id="passingDivXii">
+						<input type="date" name="s" id="XII-StandardPassing" class="inpPassingXii" placeholder="">
+					</div>
+					<div class="warnXii"  id="errorPASSINGXII"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field value is required</label></div> 
+				</div>
+		</div>
+		<!-- Xii ends-->
+        <!-- Diploma Field starts-->
+        <div id="DIP" style="display:none">
+
+				<div class="headOfDiv">
+					<div class="Sn">3.</div><div class="h">Diploma</div>
+				</div>
+				<div class="inpDivDip" id="degreeDip">
+					<div class="inpnameDip" id="degNameDip">Degree</div>
+					<div id="degRadio1Dip">
+						<input type="radio" name="r" id="inDeg1Dip"><label>Diploma</label>
+					</div>
+					<div id="degRadio2Dip">
+						<input type="radio" name="r" id="inDeg2Dip"><label>Others</label>
+					</div>
+					<div id="errorDEGREEDIP"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div>
+				</div>
+				<div class="inpDivDip" id="schoolDip">
+					<div class="inpnameDip" id="schNameDip">Institute</div>
+					<p id="schParaDip">Please do not key in any personally identifiable information belonging to you or any other person(s) which is unrelated to the business purpose of this survey</p>
+					<div id="schDivDip">
+						<input type="text" id="DiplomaInstitute" onfocusout="othercheck(this)" name="s" class="inpSchoolDip" placeholder="">
+						<label id="star200" class="dummy">*</label>
+					</div>
+					<div class="warnDip"  id="errorSCHOOLDIP"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field value is required</label></div> 
+				</div>
+				<div  class="inpDivDip" id="boardDip">
+					<div class="inpnameDip"  id="boardNameDip">University</div>
+					<div style="position: relative;">
+						<div id="selectDivDip">
+							<select  id="DiplomaUniversity" onchange="please(this)" onfocusout="check(this)">
+								<option selected></option>
+								<option>A P J Abdul Kalam Technological University-Trivand</option>
+								<option>rgukt-nuzvid</option>
+								<option>rgukt-ongole</option>
+								
+							</select>
+							<label id="star201" class="dummy">*</label>
+							<img src="down.png">
+						</div>
+
+						<div class="otherdivDip" id="otherdiv1Dip">
+							<input type="text" class="othertextDip" name="t" id="otherTextBoardDip" placeholder="" 
+							onfocusout="othercheck(this)">
+							<label style="font-family: Roboto;font-style: normal;font-weight: 400;font-size: 16px;line-height: 18px;color: #000;position: absolute;top: 61.5px;left: 17.1px;" id="pls201" class="dummy">Please Specify<span id="red201">*</span></label>
+						</div>
+
+						<div class="warnDip" class="warnOtherDip"  id="errorOTHERBOARDDIP"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div> 
+						<div class="warnDip" class="warnDropDip"  id="errorBOARDDIP" style="po"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div> 
+					</div>
+				</div>
+				
+				<div  class="inpDivDip" id="boardDip">
+					<div class="inpnameDip"  id="boardNameDip">Country</div>
+					<div style="position: relative;">
+						<div id="selectDivDip">
+							<select id="DiplomaCountry" onchange="please(this)" onfocusout="check(this)" >
+								<option selected></option>
+								<option>india</option>
+								<option>australia</option>
+								<option>england</option>
+								<option>pakisthan</option>
+							</select>
+							<label id="star202" class="dummy">*</label>
+							<img src="down.png">
+						</div>
+						
+						<div class="otherdivDip" id="otherdiv3Dip">
+							<input type="text" class="othertextDip" name="t" id="otherTextCounDip" placeholder="" onfocusout="othercheck(this)">
+							<label
+							style="font-family: Roboto;font-style: normal;font-weight: 400;font-size: 16px;line-height: 18px;color: #000;position: absolute;top: 61.5px;left: 17.1px;" class="pls" id="pls202" class="dummy">Please Specify<span id="red202">*</span></label>
+						</div>
+
+						<div class="warnDip" class="warnOtherDip"  id="errorOTHERCOUNDIP"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div> 
+						<div class="warnDip" class="warnDropDip"  id="errorCOUNDIP"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div> 
+					</div>
+				</div>
+				<div  class="inpDivDip" id="boardDip">
+					<div class="inpnameDip"  id="boardNameDip">State</div>
+					<div style="position: relative;">
+						<div id="selectDivDip">
+							<select id="DiplomaState" onchange="please(this)" onfocusout="check(this)" >
+								<option selected></option>
+								<option>Andhra</option>
+								<option>Telanga</option>
+								<option>jammu</option>
+								<option>kerala</option>
+							</select>
+							<label id="star203" class="dummy">*</label>
+							<img src="down.png">
+						</div>
+						
+						<div class="otherdivDip" id="otherdiv4Dip">
+							<input type="text" class="othertextDip" name="t" id="otherTextStateDip" placeholder="" 
+							onfocusout="othercheck(this)">
+							<label
+							style="font-family: Roboto;font-style: normal;font-weight: 400;font-size: 16px;line-height: 18px;color: #000;position: absolute;top: 61.5px;left: 17.1px;" class="pls" id="pls203" class="dummy">Please Specify<span id="red203">*</span></label>
+						</div>
+
+						<div class="warnDip" class="warnOtherDip"  id="errorOTHERSTATEDIP"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div> 
+						<div class="warnDip" class="warnDropDip"  id="errorSTATEDIP"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div> 
+					</div>
+				</div>
+
+				<div  class="inpDivDip" id="boardDip">
+					<div class="inpnameDip"  id="boardNameDip">Branch/Stream/Area of Specialization</div>
+					<div style="position: relative;">
+						<div id="selectDivDip">
+							<select id="DiplomaBranch" onchange="please(this)" onfocusout="check(this)" >
+								<option selected></option>
+								<option>Science</option>
+								<option>PCME</option>
+								<option>PCMCs</option>
+								<option>PCMB</option>
+								<option>PCM</option>
+								<option>PCB</option>
+								<option>General</option>
+								<option>Others</option>
+							</select>
+							<label id="star204" class="dummy">*</label>
+							<img src="down.png">
+						</div>
+
+						<div class="otherdivDip" id="otherdiv2Dip">
+							<input type="text" class="othertextDip" name="t" id="otherTextSpecDip" placeholder="" onfocusout="othercheck(this)">
+							<label style="font-family: Roboto;font-style: normal;font-weight: 400;font-size: 16px;line-height: 18px;color: #000;position: absolute;top: 61.5px;left: 17.1px;" id="pls204" class="dummy">Please Specify<span id="red204">*</span></label>
+						</div>
+						
+						<div class="warnDip" id="errorOTHERSPECDIP"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div> 
+						<div class="warnDip" class="warnDropDip"  id="errorSPECDIP"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div> 
+					</div>
+				</div>
+				
+				
+
+				<div class="inpDivDip" id="gradeDip">
+					<div class="inpnameDip" id="gradeNameDip">Simple Average percentage/CGPA/Grade for all semesters/years</div>
+					<div id="gradeDivDip">
+						<input type="number" id="DiplomaSimple" name="s" class="inpGradeDip" onfocusout="othercheck(this)" placeholder="">
+						<label id="star205" class="dummy">*</label>
+					</div>
+					<div class="warnDip"  id="errorGRADEDIP"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field value is required</label></div> 
+				</div>
+				<div class="inpDivDip" id="passingDip">
+					<div class="inpnameDip" id="passingNameDip">Passing month and year</div>
+					<div id="passingDivDip">
+						<input type="date" id="DiplomaPassing" name="s" class="inpPassingDip" onfocusout="othercheck(this)" placeholder="">
+					</div>
+					<div class="warnDip"  id="errorPASSINGDIP"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field value is required</label></div> 
+				</div>
+		</div>
+        <!-- Diploma Field Ends-->
+		<!-- Graduation Field starts -->
+			<div id="graduation">
+					<div id="heading">
+						<div id="SNo">3.</div><div id="head">Graduation</div>
+					</div>
+				<hr id="onlyHr">
+				<div class="inpDivGrad" id="degreeGrad">
+					<div class="inpnameGrad"  id="degreeNameGrad">Degree</div>
+					<div style="position: relative;">
+						<div id="selectDivGrad">
+							<select id="GraduationDegree" onchange="please(this)" onfocusout="check(this)">
+								<option selected></option>
+								<option>Bachelor of Technology</option>
+								<option>Bachelor of Engineering</option>
+								<option>Bachelor of Engg(Honors)</option>
+								<option>Bachelor of Tech(Honors)</option>
+								<option>Bachelor of Science(Honors)</option>
+								<option>Bachelor of Science</option>
+								<option>Bachelor of Comp.Applications</option>
+								<option>Bachelor of Science(Engg)</option>
+								<option>Others</option>
+							</select>
+							
+							<label id="star51" class="dummyGrad">*</label>
+							<img src="down.png">
+						</div>
+
+						<div class="otherdivGrad" id="otherdivGrad51">
+							<input type="text" class="othertextGrad" name="t" id="otherTextDegree" placeholder="" onfocusout="othercheck(this)">
+							<label style="font-family: Roboto;font-style: normal;font-weight: 400;font-size: 16px;line-height: 18px;   color: #000;position: absolute;top: 61.5px;left: 17.1px;" id="pls51" class="dummyGrad">
+								   Please Specify<span id="red51">*</span>
+							</label>
+						</div>
+
+						<div class="warnGrad" class="warnOtherGrad"  id="errorOTHERDEGREEGRAD"><img src="error.png" height="18px"
+						       width="17px" style="margin-right: 5px;"><label>This field is required</label>
+						</div> 
+						<div class="warnGrad" class="warnDropGrad"  id="errorDegreeGrad" >
+							<img src="error.png" height="18px" width="17px" style="margin-right: 5px;">
+							<label>This field is required</label>
+						</div> 
+					</div>
+				</div>
+
+
+				<div class="inpDivGrad" id="degreeGrad">
+					<div class="inpnameGrad"  id="degreeNameGrad">Institute</div>
+					<div style="position: relative;">
+						<div id="selectDivGrad">
+							<select id="GraduationInstitute" onchange="please(this)" onfocusout="check(this)">
+								<option selected></option>
+								<option>A C Patil College Of Engineering</option>
+								<option>A C Technolgy Chennai</option>
+								<option>A K K New Law Academy Pune</option>
+								<option>A M A L College</option>
+								<option>A M C Engineering College(Amc)</option>
+								<option>A P S College Of Engineering</option>
+								<option>A R Institute Of Pharmacy</option>
+								<option>Others</option>
+							</select>
+							
+							<label id="star52" class="dummyGrad">*</label>
+							<img src="down.png">
+						</div>
+
+						<div class="otherdivGrad" id="otherdivGrad52">
+							<input type="text" class="othertextGrad" name="t" id="otherTextInst" placeholder="" onfocusout="othercheck(this)">
+							<label style="font-family: Roboto;font-style: normal;font-weight: 400;font-size: 16px;line-height: 18px;   color: #000;position: absolute;top: 61.5px;left: 17.1px;" id="pls52" class="dummyGrad">
+								   Please Specify<span id="red52">*</span>
+							</label>
+						</div>
+
+						<div class="warnGrad" class="warnOtherGrad"  id="errorOTHERINSTGRAD"><img src="error.png" height="18px"
+						       width="17px" style="margin-right: 5px;"><label>This field is required</label>
+						</div> 
+						<div class="warnGrad" class="warnDropGrad"  id="errorINSTGRAD" >
+							<img src="error.png" height="18px" width="17px" style="margin-right: 5px;">
+							<label>This field is required</label>
+						</div> 
+					</div>
+				</div>
+
+
+				<div class="inpDivGrad" id="degreeGrad">
+					<div class="inpnameGrad"  id="degreeNameGrad">University</div>
+					<div style="position: relative;">
+						<div id="selectDivGrad">
+							<select id="GraduationUniversity" onchange="please(this)" onfocusout="check(this)">
+								<option selected></option>
+								<option>A P J Abdul Kalam Technological University-Trivand</option>
+								<option>A. P. S. University, Rewa</option>
+								<option>A.P. Shah Institute Of Technology</option>
+								<option>Aadhikavi Nannaya University</option>
+								<option>Abc University</option>
+								<option>Abhinav Abhiyantriki Vidyalaya</option>
+								<option>Abviiitm Gwalior</option>
+								<option>Others</option>
+							</select>
+							
+							<label id="star53" class="dummyGrad">*</label>
+							<img src="down.png">
+						</div>
+
+						<div class="otherdivGrad" id="otherdivGrad53">
+							<input type="text" class="othertextGrad" name="t" id="otherTextUni" placeholder="" onfocusout="othercheck(this)">
+							<label style="font-family: Roboto;font-style: normal;font-weight: 400;font-size: 16px;line-height: 18px;   color: #000;position: absolute;top: 61.5px;left: 17.1px;" id="pls53" class="dummyGrad">
+								   Please Specify<span id="red53">*</span>
+							</label>
+						</div>
+
+						<div class="warnGrad" class="warnOtherGrad"  id="errorOTHERUNIVGRAD"><img src="error.png" height="18px"
+						       width="17px" style="margin-right: 5px;"><label>This field is required</label>
+						</div> 
+						<div class="warnGrad" class="warnDropGrad"  id="errorUNIVGRAD" >
+							<img src="error.png" height="18px" width="17px" style="margin-right: 5px;">
+							<label>This field is required</label>
+						</div> 
+					</div>
+				</div>
+
+
+				<div class="inpDivGrad" id="degreeGrad">
+					<div class="inpnameGrad"  id="degreeNameGrad">Country</div>
+					<div style="position: relative;">
+						<div id="selectDivGrad">
+							<select id="GraduationCountry" onchange="please(this)" onfocusout="check(this)">
+								<option selected></option>
+								<option>India</option>
+								<option>Afghanistan</option>
+								<option>Albania</option>
+								<option>Algeria</option>
+								<option>Amer.Virgin Is.</option>
+								<option>Andorra</option>
+								<option>Anguilla</option>
+								<option>Ankola</option>
+								<option>Antarctica</option>
+								<option>Antigua/Barbads</option>
+							</select>
+							
+							<label id="star54" class="dummyGrad">*</label>
+							<img src="down.png">
+						</div>
+						<div></div>
+						<div></div>
+						<div class="warnGrad" class="warnDropGrad"  id="errorCOUNGrad" >
+							<img src="error.png" height="18px" width="17px" style="margin-right: 5px;">
+							<label>This field is required</label>
+						</div> 
+					</div>
+				</div>
+
+				<div class="inpDivGrad" id="degreeGrad">
+					<div class="inpnameGrad"  id="degreeNameGrad">State</div>
+					<div style="position: relative;">
+						<div id="selectDivGrad">
+							<select id="GraduationState" onchange="please(this)" onfocusout="check(this)">
+								<option selected></option>
+								<option>Andaman & Nicobar</option>
+								<option>Andhra Pradesh</option>
+								<option>Arunachal Pradesh</option>
+								<option>Assam</option>
+								<option>Bihar</option>
+								<option>Chandigarh</option>
+								<option>Chhattisgarh</option>
+								<option>Dadra Und Nagar Haveli</option>
+								<option>Daman & Diu</option>
+								<option>Delhi</option>
+								<option>Others</option>
+							</select>
+							
+							<label id="star55" class="dummyGrad">*</label>
+							<img src="down.png">
+						</div>
+
+						<div class="otherdivGrad" id="otherdivGrad55">
+							<input type="text" class="othertextGrad" name="t" id="otherTextState" placeholder="" onfocusout="othercheck(this)">
+							<label style="font-family: Roboto;font-style: normal;font-weight: 400;font-size: 16px;line-height: 18px;   color: #000;position: absolute;top: 61.5px;left: 17.1px;" id="pls55" class="dummyGrad">
+								   Please Specify<span id="red55">*</span>
+							</label>
+						</div>
+
+						<div class="warnGrad" class="warnOtherGrad"  id="errorOTHERSTATEGRAD"><img src="error.png" height="18px"
+						       width="17px" style="margin-right: 5px;"><label>This field is required</label>
+						</div> 
+						<div class="warnGrad" class="warnDropGrad"  id="errorSTATEGrad" >
+							<img src="error.png" height="18px" width="17px" style="margin-right: 5px;">
+							<label>This field is required</label>
+						</div> 
+					</div>
+				</div>
+
+
+				<div class="inpDivGrad" id="degreeGrad">
+					<div class="inpnameGrad"  id="degreeNameGrad">Branch/Stream/Area of Specialization</div>
+					<div style="position: relative;">
+						<div id="selectDivGrad">
+							<select id="GraduationBranch" onchange="please(this)" onfocusout="check(this)">
+								<option selected></option>
+								<option>Accountancy</option>
+								<option>Accounting</option>
+								<option>Accounts & Finance</option>
+								<option>Accounts & Statistics</option>
+								<option>Adv Manufacturing Tech</option>
+								<option>Others</option>
+							</select>
+							
+							<label id="star56" class="dummyGrad">*</label>
+							<img src="down.png">
+						</div>
+
+						<div class="otherdivGrad" id="otherdivGrad56">
+							<input type="text" class="othertextGrad" name="t" id="otherTextSpe" placeholder="" onfocusout="othercheck(this)">
+							<label style="font-family: Roboto;font-style: normal;font-weight: 400;font-size: 16px;line-height: 18px;   color: #000;position: absolute;top: 61.5px;left: 17.1px;" id="pls56" class="dummyGrad">
+								   Please Specify<span id="red56">*</span>
+							</label>
+						</div>
+
+						<div class="warnGrad" class="warnOtherGrad"  id="errorOTHERSPE"><img src="error.png" height="18px"
+						       width="17px" style="margin-right: 5px;"><label>This field is required</label>
+						</div> 
+						<div class="warnGrad" class="warnDropGrad"  id="errorSPE">
+							<img src="error.png" height="18px" width="17px" style="margin-right: 5px;">
+							<label>This field is required</label>
+						</div> 
+					</div>
+				</div>
+
+				<div class="inpDivGrad" id="degreeGrad">
+						<div class="inpnameGrad"  id="gradeNameGrad">
+							Simple Average percentage/CGPA/Grade for all semesters/years
+						</div>
+						<div id="gradeDivGrad">
+							<input type="number" id="GraduationSimple" name="s" class="inpGradeGrad" onfocusout="othercheck(this)" placeholder="">
+								<label id="star57" class="dummy">*</label>
+						</div>
+						<div class="warnGrad"  id="errorGRADEGrad"><img src="error.png" height="18px" width="17px"
+						      style="margin-right: 5px;"><label>This field value is required</label>
+						</div> 
+				</div>
+
+					<div class="inpDivGrad" id="degreeGrad" class="not">
+						<div class="inpname" id="passingNameGrad">Passing month and year</div>
+						<div id="passingDivGrad">
+							<input type="date" id="GraduationPassing" name="s" class="inpPassingGrad" onfocusout="othercheck(this)" placeholder="">
+						</div>
+						<div class="warnGrad"  id="errorPASSINGGRAD"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field value is required</label></div> 
+					</div>		
+			</div>
+		<!-- Graduation Field ends -->
+
+		<!-- Post Graduation Field starts -->
+			<div id="post">
+				<div class="headOfDiv">
+					<div id="Sn">4.</div><div id="h">Post Graduation<span class="opt">&nbsp;(optional)</span></div>
+				</div>
+				<div  class="inpDiv" id="board" style="border-top: 0.2px solid #e0e0e0">
+					<div class="inpname"  id="postDegreeName">Degree<span class="opt">&nbsp;(optional)</span></div>
+					<div style="position: relative;">
+						<div id="selectDiv">
+							<select id="drop">
+								<option selected></option>
+								<option>A P J Abdul Kalam Technological University-Trivand</option>
+								<option>rgukt-nuzvid</option>
+								<option>rgukt-ongole</option>
+							</select>
+							
+							<label id="star10" class="dummy">*</label>
+							<img src="down.png">
+						</div>
+
+						<div class="otherdiv" id="otherdiv5">
+							<input type="text" class="othertext" name="t" id="otherTextPostDegree" placeholder="">
+							<label style="font-family: Roboto;font-style: normal;font-weight: 400;font-size: 16px;line-height: 18px;color: #000;position: absolute;top: 61.5px;left: 17.1px;" id="pls10" class="dummy">Please Specify<span id="red10">*</span></label>
+						</div>
+
+						<div class="warn"   id="errorOTHERPOSTDEGREE"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div> 
+						<div class="warn" class="warnDrop"  id="errorPOSTDEGREE" style="po"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div> 
+					</div>
+				</div>
+				<div  class="inpDiv" id="board">
+					<div class="inpname"  id="postInstName">Institue<span class="opt">&nbsp;(optional)</span></div>
+					<div style="position: relative;">
+						<div id="selectDiv">
+							<select id="drop">
+								<option selected></option>
+								<option>A P J Abdul Kalam Technological University-Trivand</option>
+								<option>JNTU</option>
+								<option>rgukt</option>
+							</select>
+							
+							<label id="star11" class="dummy">*</label>
+							<img src="down.png">
+						</div>
+
+						<div class="otherdiv" id="otherdiv6">
+							<input type="text" class="othertext" name="t" id="otherTextPostInst" placeholder="" >
+							<label style="font-family: Roboto;font-style: normal;font-weight: 400;font-size: 16px;line-height: 18px;color: #000;position: absolute;top: 61.5px;left: 17.1px;" id="pls11" class="dummy">Please Specify<span id="red11">*</span></label>
+						</div>
+
+						<div class="warn"   id="errorOTHERPOSTINST"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div> 
+						<div class="warn" class="warnDrop"  id="errorPOSTINST" style="po"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div> 
+					</div>
+				</div>
+				<div  class="inpDiv" id="board">
+					<div class="inpname"  id="postUnivName">University<span class="opt">&nbsp;(optional)</span></div>
+					<div style="position: relative;">
+						<div id="selectDiv">
+							<select id="drop">
+								<option selected></option>
+								<option>A P J Abdul Kalam Technological University-Trivand</option>
+								<option>rgukt nuzvid</option>
+								<option>rgukt ongole</option>
+								<option>Others</option>
+							</select>
+							
+							<label id="star12" class="dummy">*</label>
+							<img src="down.png">
+						</div>
+
+						<div class="otherdiv" id="otherdiv7">
+							<input type="text" class="othertext" name="t" id="otherTextPostUniv" placeholder="" >
+							<label style="font-family: Roboto;font-style: normal;font-weight: 400;font-size: 16px;line-height: 18px;color: #000;position: absolute;top: 61.5px;left: 17.1px;" id="pls12" class="dummy">Please Specify<span id="red12">*</span></label>
+						</div>
+
+						<div class="warn"   id="errorOTHERPOSTUNIV"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div> 
+						<div class="warn" class="warnDrop"  id="errorPOSTUNIV" style="po"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div> 
+					</div>
+				</div>
+
+				<div  class="inpDiv" id="board" >
+					<div class="inpname"  >Country<span class="opt">&nbsp;(optional)</span></div>
+					<div style="position: relative;">
+						<div id="selectDiv">
+							<select id="drop">
+								<option selected></option>
+								<option>india</option>
+								<option>australia</option>
+								<option>england</option>
+								<option>pakisthan</option>
+							</select>
+							
+							<label id="star13" class="dummy">*</label>
+							<img src="down.png">
+						</div>
+						<div class="warn"   id="errorOTHERPOSTCOUN"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div> 
+						<div class="warn" class="warnDrop"  id="errorPOSTCOUN" style="po"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div> 
+					</div>
+				</div>
+
+				<div  class="inpDiv" id="board" >
+					<div class="inpname">State<span class="opt">&nbsp;(optional)</span></div>
+					<div style="position: relative;">
+						<div id="selectDiv">
+							<select id="drop" >
+								<option selected></option>
+								<option>Andhra</option>
+								<option>Telanga</option>
+								<option>jammu</option>
+								<option>kerala</option>
+							</select>
+							
+							<label id="star14" class="dummy">*</label>
+							<img src="down.png">
+						</div>
+
+						<div class="otherdiv" id="otherdiv9">
+							<input type="text" class="othertext" name="t" id="otherTextPostState" placeholder="">
+							<label style="font-family: Roboto;font-style: normal;font-weight: 400;font-size: 16px;line-height: 18px;color: #000;position: absolute;top: 61.5px;left: 17.1px;" id="pls14" class="dummy">Please Specify<span id="red14">*</span></label>
+						</div>
+
+						<div class="warn"   id="errorOTHERPOSTSTATE"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div> 
+						<div class="warn" class="warnDrop"  id="errorPOSTSTATE" style="po"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div> 
+					</div>
+				</div>
+				<div  class="inpDiv" id="board" >
+					<div class="inpname">Branch/Stream/Area of Specialization<span class="opt">&nbsp;(optional)</span></div>
+					<div style="position: relative;">
+						<div id="selectDiv">
+							<select id="drop">
+								<option selected></option>
+								<option>Science</option>
+								<option>PCME</option>
+								<option>PCMCs</option>
+								<option>PCMB</option>
+								<option>PCM</option>
+								<option>PCB</option>
+								<option>General</option>
+							</select>
+							
+							<label id="star15" class="dummy">*</label>
+							<img src="down.png">
+						</div>
+
+						<div class="otherdiv" id="otherdiv10">
+							<input type="text" class="othertext" name="t" id="otherTextPostBranch" placeholder="">
+							<label style="font-family: Roboto;font-style: normal;font-weight: 400;font-size: 16px;line-height: 18px;color: #000;position: absolute;top: 61.5px;left: 17.1px;" id="pls15" class="dummy">Please Specify<span id="red15">*</span></label>
+						</div>
+
+						<div class="warn"   id="errorOTHERPOSTBRANCH"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div> 
+						<div class="warn" class="warnDrop"  id="errorPOSTBRANCH" style="po"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field is required</label></div> 
+					</div>
+				</div>
+				<div class="inpDiv" id="postgrade">
+					<div class="inpname" id="postgradeName">Simple Average percentage/CGPA/Grade for all semesters/years<span class="opt">&nbsp;(optional)</span></div>
+					<div id="gradeDiv">
+						<input type="number" name="s" id="inpPostGrade"  placeholder="">
+						<label id="star16" class="dummy">*</label>
+					</div>
+					<div class="warn"  id="errorPOSTGRADE"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field value is required</label></div> 
+				</div>
+				<div class="inpDiv" id="postpassing">
+					<div class="inpname" id="postpassingName">Passing month and year<span class="opt">&nbsp;(optional)</span></div>
+					<div id="passingDiv">
+						<input type="date" name="s" id="inpPostPassing">
+					</div>
+					<div class="warn"  id="errorPOSTPASSING"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field value is required</label></div> 
+				</div>
+			</div>
+		<!--Post Graduation Field Ends -->
+		<!--chai starts-->
+			<div id="backlogs">
+				<div class="headOfDiv" style="margin-bottom: 10px">
+					<div id="Sn">5.</div><div id="h">Active Backlogs</div>
+				</div>
+				<div class="inpDiv" id="backYESNO" style="border-top: 0.2px solid #e0e0e0;margin-left: 20px;padding-bottom: 30px;">
+					<div class="inpname" id="backYESNOName">I . Do you have any active backlog?</div>
+					<div style="display:flex;margin-left:20px;margin-top: 15px;margin-bottom: 30px;">
+						<div class="yesno">
+							<button id="logyes"><div><span style="font-size:17px;font-weight:900;position: absolute;top: -3px;left: 2px" class="right">&check;</span></div><span>YES</span></button>
+						</div>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<div class="yesno">
+							<button id="logno"><div><span class="wrong">&times;</span></div><span>NO</span></button>
+						</div>
+
+					</div>
+					<div class="warn"  id="errorBACK"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field value is required</label></div>
+					<div id="chai1">
+						<div class="inpname" id="backYESNOName">II . Number of active backlogs</div>
+						<input onfocusout="extralast(this)" type="number" name="s" id="inpSchool" placeholder="">
+						<label style="position:absolute;top: 150px;" class="dummy">*</label>
+						<div class="warn"  id="errorBACKQ"><img src="error.png" height="18px" width="17px" style="margin-left: -300px;margin-right: 5px;"><label>This field value is required</label></div>
+					</div>
+				</div>
+
+			</div>
+			<div id="gaps">
+				<div style="margin-bottom:10px" class="headOfDiv">
+					<div id="Sn">6.</div><div id="h">Gaps in Education</div>
+				</div>
+				<div class="inpDiv" id="gapsYESNO" style="border-top: 0.2px solid #e0e0e0;margin-left: 20px;padding-bottom: 30px;">
+					<div class="inpname" id="backYESNOName">I . Do you have gaps in education?</div>
+					<div style="display:flex;margin-left:20px;margin-top: 15px;margin-bottom: 30px;">
+						<div class="yesno">
+							<button id="gapyes"><div><span style="font-size:17px;font-weight:900;position: absolute;top: -3px;left: 2px" class="right">&check;</span></div><span>YES</span></button>
+						</div>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<div class="yesno">
+							<button id="gapno"><div><span class="wrong">&times;</span></div><span>NO</span></button>
+						</div>
+					</div>
+					<div class="warn"  id="errorGAPS"><img src="error.png" height="18px" width="17px" style="margin-right: 5px;"><label>This field value is required</label></div> 
+					<div id="chai2">
+						<div class="inpname" id="backYESNOName" style="margin-bottom:20px">II . Gaps in education in months</div>
+						<input onfocusout="extralast(this)" type="text" name="s" id="inpSchool" placeholder="" >
+						<label style="position:absolute;top: 155px;" class="dummy">*</label>
+						<div class="warn"  id="errorGAPSQ"><img src="error.png" height="18px" width="17px" style="margin-left: -300px;margin-right: 5px;"><label>This field value is required</label></div>
+					</div>
+
+				</div>
+
+			</div>
+		<!--chai ends-->
+        </div>
+        <div id="gobutton">
+        	<a href="ajayeduactionform.html">PREVIOUS PAGE</a>
+        	<a href="#" id="sunilgo" onclick="sunilgofun();">NEXT PAGE</a>
+
+        </div>
+		</form>
+	</main>
+	 
+	<section style="margin-bottom:60px">
+		<div id='err' style="display:none">
+          <b style='color:red;font-size: 1.3rem;'> Errors</b>
+           <table id='tableOfErrors' >
+             <tr>
+                   <th>Question</th><th>Error</th><th>Action</th>
+             </tr>
+             <tr id="degreerow" onclick="navigate('inDeg1')" style="visibility: hidden;">
+             	<td></td><td>In X/SSLC/Junior/Equivalent,Degree not filled</td><td><img src="eyesunil.png"></td>
+             </tr>
+           </table>
+        </div>
+	</section>
+	<footer>
+		<div id="foot">
+			<div id="progress" style="display:flex;flex-direction: row;">
+				<div id="pcount"><span id="varNum">14</span><span> of 97 answered</span></div>
+				<div id="pbar">
+					<div id="myBar" style="width:14%"></div>
+				</div>
+			<div>
+			<div id="Esttime">Estimated Time : 29 mins</div>
+			<div id="footnext"><button onclick="validate()">NEXT PAGE</button></div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="sunil1.js"></script>
+</body>
+</html>

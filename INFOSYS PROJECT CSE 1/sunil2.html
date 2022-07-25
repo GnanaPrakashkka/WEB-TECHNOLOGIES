@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Infosys Limited Recruitement</title>
+	<link rel="stylesheet" type="text/css" href="sunil2.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/8fccf2c721.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+		<div id="header">
+			<img id="headerImg" src="name.png">
+		</div>
+	</header>
+	<div id="info">
+		<div id="info1">Infosys Limited Recruitment</div>
+		<div id="info2">Electronics City, Hosur Road, Bangalore - 560100, India</div>
+		<div id="info3">APPLICATION FOR EMPLOYMENT</div>
+		<div id="info4" style="padding-bottom:10px;">Association with Infosys</div>
+	</div>
+	<div>
+		
+		<div class="card" style="padding-top:1px;padding-bottom:40px;margin-bottom:30px;" id="quesOne">
+			<div id="requiredText" style="visibility:hidden;"><i class="fa-light fa-triangle-exclamation"></i>This field is required</div>
+			<p class="questions" style="padding-left:16px;">1. Have u ever undergone any selection process with Infosys Limited or Infosys Subsidiaries(EdgeVerve Systems,Infosys BPM,Infosys Consulting,Insfosys Public Services,Skava Systems) previously? </p>
+			<button onclick="displayTwoThree()" id="quesOneYes" style="margin-right:10px;margin-left:16px;"><i class="fa-regular fa-circle-check fa-xl"></i>YES</button>
+			<button onclick="hideTwoThree()" id="quesOneNo"><i class="fa-regular fa-circle-xmark fa-xl"></i>NO</button>
+		</div>
+		<div class="card_two" style="margin-top:5px;margin-bottom:2bx;display:none;" id="questwo">
+			<p class="questions" style="margin-bottom:5px;">2. For INFOSYS Limited have you</p>
+			<div class="subcard">
+				<hr width="100%" color="#DCDCDC" size="1">
+				<p class="questions" style="padding-left:12px;">Taken any test?</p>
+				<button id="quesTwoOneYes" onclick="displayFirst()" class="buttons cardbutton2" style="margin-right:10px;"><i class="fa-regular fa-circle-check fa-xl"></i>YES</button>
+				<button id="quesTwoOneNo" onclick="hideFirst()" class="buttons cardbutton2"><i class="fa-regular fa-circle-xmark fa-xl"></i>NO</button>
+			</div>
+			<div class="subdatecard" style="display:none;" id="calenderone">
+				<hr width="100%" color="#DCDCDC" size="1">
+				<p class="questions" style="padding-left:10px;margin-top:-6px;">Test date</p>
+				<p id="dateErrorMsgOne" class="dateErrorMsg" >* This field is required</p>
+				<input type="date" id="dateTwoOne">
+				
+			</div>
+			<div class="subcard">
+				<hr width="100%" color="#DCDCDC" size="1">
+				<p class="questions" style="padding-left:10px;">Selected For an interview?</p>
+				<button id="quesTwoTwoYes" onclick="displaySecond()"class="buttons cardbutton3" style="margin-right:10px;"><i class="fa-regular fa-circle-check fa-xl"></i>YES</button>
+				<button id="quesTwoTwoNo" onclick="hideSecond()"class="buttons cardbutton3"><i class="fa-regular fa-circle-xmark fa-xl"></i>NO</button>
+			</div>
+			<div class="subdatecard"  style="display:none;" id="calendertwo">
+				<hr width="100%" color="#DCDCDC" size="1">
+				<p class="questions" style="padding-left:10px;margin-top:-6px;">Date of Interview</p>
+				<p id="dateErrorMsgTwo" class="dateErrorMsg" >* This field is required</p>
+				<input type="date" id="dateTwoTwo">
+				
+			</div>
+			<div class="subcard">
+				<hr width="100%" color="#DCDCDC" size="1">
+				<p class="questions" style="padding-left:10px;">Joined?</p>
+				<button onclick="displayThird()"class="buttons cardbutton4" style="margin-right:10px;"><i class="fa-regular fa-circle-check fa-xl"></i>YES</button>
+				<button onclick="hideThird()"class="buttons cardbutton4"><i class="fa-regular fa-circle-xmark fa-xl"></i>NO</button>
+			</div>
+			<div class="subdatecard" id="calenderthree" style="display:none;">
+				<hr width="100%" color="#DCDCDC" size="1">
+				
+				<p class="questions" style="padding-left:10px;margin-top:-6px;">Date of Offer</p>
+				<p id="dateErrorMsgThree" class="dateErrorMsg" >* This field is required</p>
+				<input type="date" id="dateTwoThree">
+				
+			</div>
+			<div class="subcard">
+				<hr width="100%" color="#DCDCDC" size="1">
+				<p class="questions" style="padding-left:10px;">Rceived an Offer?</p>
+				<button onclick="displayFourth()" class="buttons" style="margin-right:10px;"><i class="fa-regular fa-circle-check fa-xl"></i>YES</button>
+				<button onclick="hideFourth()" class="buttons"><i class="fa-regular fa-circle-xmark fa-xl"></i>NO</button>
+			</div>
+			<div class="subdatecard" id="calenderfour" style="display:none;margin-bottom:70px;">
+				<hr width="100%" color="#DCDCDC" size="1">
+				<p class="questions" style="padding-left:10px;margin-top:-6px;">Date of Offer</p>
+				<p id="dateErrorMsgFour" class="dateErrorMsg" >* This field is required</p>
+				<input type="date" id="dateTwoFour">
+				
+			</div>
+		</div>
+		<div class="card_two" style="margin-top:20px;margin-bottom:50px;display:none;" id="questhree">
+			<p class="questions" style="margin-bottom:5px;">3. For Infosys Limited or Infosys Subsidiaries(EdgeVerve Systems,Infosys BPM,Infosys Consulting,Insfosys Public Services,Skava Systems) have you</p>
+
+			<div class="subcard">
+				<hr width="100%" color="#DCDCDC" size="1">
+				<p class="questions" style="padding-left:12px;">Taken any test?</p>
+				<button class="buttons" onclick="threeFirstD()"style="margin-right:10px;"><i class="fa-regular fa-circle-check fa-xl"></i>YES</button>
+				<button class="buttons" onclick="threeFirstH()"><i class="fa-regular fa-circle-xmark fa-xl"></i>NO</button>
+			</div>
+			<div class="subdatecard" id="dateOne" style="display:none;">
+				<hr width="100%" color="#DCDCDC" size="1">
+				<p class="questions" style="padding-left:10px;padding-top:7.5px;margin-top:px;">Test date</p>
+				<input type="date" id="dates">
+			</div>
+			<div class="subcard">
+				<hr width="100%" color="#DCDCDC" size="1">
+				<p class="questions" style="padding-left:10px;">Selected For an interview?</p>
+				<button class="buttons" onclick="threeSecondD()" style="margin-right:10px;"><i class="fa-regular fa-circle-check fa-xl"></i>YES</button>
+				<button class="buttons" onclick="threeSecondH()"><i class="fa-regular fa-circle-xmark fa-xl"></i>NO</button>
+			</div>
+			<div class="subdatecard" id="dateTwo" style="display:none;">
+				<hr width="100%" color="#DCDCDC" size="1">
+				<p class="questions" style="padding-left:10px;padding-top:7.5px;">Date of Interview</p>
+				<input type="date" id="dateThreeTwo">
+			</div>
+			<div class="subcard">
+				<hr width="100%" color="#DCDCDC" size="1">
+				<p class="questions" style="padding-left:10px;">Rceived an Offer?</p>
+				<button class="buttons" onclick="threeThirdD()" style="margin-right:10px;"><i class="fa-regular fa-circle-check fa-xl"></i>YES</button>
+				<button class="buttons" onclick="threeThirdH()"><i class="fa-regular fa-circle-xmark fa-xl"></i>NO</button>
+			</div>
+			<div class="subdatecard" id="dateThree" style="display:none;">
+				<hr width="100%" color="#DCDCDC" size="1">
+				<p class="questions" style="padding-left:10px;padding-top:7.5px;">Date of Offer</p>
+				<input type="date" id="dateThreeThree">
+			</div>
+			<div class="subcard">
+				<hr width="100%" color="#DCDCDC" size="1">
+				<p class="questions" style="padding-left:10px;">Joined?</p>
+				<button class="buttons" onclick="threeFourthD()" style="margin-right:10px;"><i class="fa-regular fa-circle-check fa-xl"></i>YES</button>
+				<button class="buttons" onclick="threeFourthH()"><i class="fa-regular fa-circle-xmark fa-xl"></i>NO</button>
+			</div>
+			<div class="subdatecard" id="dateFour" style="display:none;margin-bottom:70px;">
+				<hr width="100%" color="#DCDCDC" size="1">
+				<p class="questions" style="padding-left:10px;padding-top:7.5px;">Date of Offer</p>
+				<input type="date" id="dateThreeFour">
+			</div>
+		</div>
+		<div style="text-align:center;">
+			<a href="sunil1.html"><button class="lbuttons" id="prevButton">PREVIOUS PAGE</button></a>
+			<a href="#" onclick="sunilgofun2();" id="sunilgo2"><button class="lbuttons" id="nextButton" style="margin-left:5px;width:200px;">NEXT PAGE</button></a>
+		</div>
+		<div class="error" style="display:none;" id="mainpageError">
+			<p style="color: red; font-size:20px; margin-left: 25px; font-weight: bold;margin-bottom:0px;padding-top:15px;">Errors</p>
+			<p style="color: black; font-size:15px; width: 80%; margin-left: 32px;  font-weight: bold; display: inline-block;margin-bottom:-6px;">Question</p>
+			<p style="color: red; font-size:15px; font-weight: bold; display: inline-block;">Error</p>
+			<p style="color: black; font-size:15px; margin-left: 100px; font-weight: bold; display: inline-block;">Action</p>
+			<hr style="opacity:0.1">
+			<div style="height:30px;padding-bottom:6px;">
+				<p style="color: black; font-size:14px; width: 80%; margin-left: 32px; display: inline-block; margin-top:0px;">Have you undergone any selection process with Infosys Limited or Infosys subsidiaries(EdgeVerve Systems,Infosys BPM,Infosys Consulting,Insfosys Public Services,Skava Systems) previously? </p>
+				<p style="color: red; font-size:15px; width:10%; display: inline-block; margin-top:0px;">This field is Required</p>
+				<a href="#quesOne"><img src="eye.png" alt="eyeimage" width="6px" height="4px"></a>
+			</div>
+			<hr style="opacity:0.1">
+		</div>
+		<div class="error1" style="display:none;" id="secondpageerrors">
+			<p style="color: red; font-size:20px; margin-left:25px; font-weight: bold;padding-top:15px;">Errors</p>
+			<p style="color: black; font-size:15px; width: 50%; margin-left: 32px;  font-weight: bold; display: inline-block;margin-top:-20px;">Question</p>
+			<p style="color: red; font-size:15px; width:30%; font-weight:bold; display: inline-block;">Error</p>
+			<p style="color: black; font-size:15px; margin-left: 100px; font-weight: bold; display: inline-block;">Action</p>	
+			<hr>
+			<div id="quesTwoOne">
+				<p style="color: black; font-size:15px; width: 50%; margin-left: 32px; display: inline-block;">Taken any Test?</p>
+				<p style="color: red; font-size:15px; width:37.5%;  display: inline-block;">This field is Required</p>
+				<a href="#questwo"><img src="eye.png" alt="eyeimage" width="6px" height="4px"></a>
+				<hr>
+			</div>
+			<div style="display:none;" id="quesTwoOneDate">
+				<p style="color: black; font-size:15px; width: 25%; margin-left: 32px; display: inline-block; ">Test Date?</p>
+				<p style="color: red; font-size:14px; width:62%;  display: inline-block;">Please select a Date/Time that is MM/DD/YYYY/hh.mm A format</p>
+				<a href="#questwo"><img src="eye.png" alt="eyeimage" width="6px" height="4px"></a>
+				<hr>
+			</div>
+			<div id="quesTwoTwo" style="display:none;">
+				<p style="color: black; font-size:15px; width: 50%; margin-left: 32px; display: inline-block;">Selected For an interview?</p>
+				<p style="color: red; font-size:15px; width:37.5%;  display: inline-block;">This field is Required</p>
+				<a href="#questwo"><img src="eye.png" alt="eyeimage" width="6px" height="4px"></a>
+				<hr>
+			</div>
+			<div id="quesTwoTwoDate" style="display:none;">
+				<p style="color: black; font-size:15px; width: 25%; margin-left: 32px; display: inline-block; ">Date of interview?</p>
+				<p style="color: red; font-size:14px; width:62%;  display: inline-block;">Please select a Date/Time that is MM/DD/YYYY/hh.mm A format</p>
+				<a href="#questwo"><img src="eye.png" alt="eyeimage" width="6px" height="4px"></a>
+				<hr>
+			</div>
+			<div id="quesTwoThree" style="display:none;">
+				<p style="color: black; font-size:15px; width: 50%; margin-left: 32px; display: inline-block;">Received an Offer?</p>
+				<p style="color: red; font-size:15px; width:37.5%; display: inline-block;">This field is Required</p>
+				<a href="#questwo"><img src="eye.png" alt="eyeimage" width="6px" height="4px"></a>
+				<hr>
+			</div>
+			<div id="quesTwoThreeDate" style="display:none;">
+				<p style="color: black; font-size:15px; width: 25%; margin-left: 32px; display: inline-block; ">Date of Offer?</p>
+				<p style="color: red; font-size:14px; width:62%;  display: inline-block;">Please select a Date/Time that is MM/DD/YYYY/hh.mm A format</p>
+				<a href="#questwo"><img src="eye.png" alt="eyeimage" width="6px" height="4px"></a>
+				<hr>
+			</div>
+			<div id="quesTwoFour" style="display:none;">
+				<p style="color: black; font-size:15px; width: 50%; margin-left: 32px; display: inline-block;">Joined?</p>
+				<p style="color: red; font-size:15px; width:37.5%;  display: inline-block;">This field is Required</p>
+				<a href="#questwo"><img src="eye.png" alt="eyeimage" width="6px" height="4px"></a>
+				<hr>
+			</div>
+			<div id="quesTwoFourDate" style="display:none;">
+				<p style="color: black; font-size:15px; width: 25%; margin-left: 32px; display: inline-block; ">Date of Joining</p>
+				<p style="color: red; font-size:14px; width:62%;  display: inline-block;">Please select a Date/Time that is MM/DD/YYYY/hh.mm A format</p>
+				<a href="#questwo"><img src="eye.png" alt="eyeimage" width="6px" height="4px"></a>
+				<hr>
+
+			</div>
+		
+			<div id="quesThreeOne">
+				<p style="color: black; font-size:15px; width: 50%; margin-left: 32px; display: inline-block; ">Taken any Test?</p>
+				<p style="color: red; font-size:15px; width:37.5%;  display: inline-block;">This field is Required</p>
+				<a href="#questhree"><img src="eye.png" alt="eyeimage" width="6px" height="4px"></a>
+				<hr>
+			</div>
+			<div style="display:none;" id="quesThreeOneDate">
+				<p style="color: black; font-size:15px; width: 25%; margin-left: 32px; display: inline-block; ">Test Date?</p>
+				<p style="color: red; font-size:14px; width:62%;  display: inline-block;">Please select a Date/Time that is MM/DD/YYYY/hh.mm A format</p>
+				<a href="#questhree"><img src="eye.png" alt="eyeimage" width="6px" height="4px"></a>
+				<hr>
+			</div>
+			<div id="quesThreeTwo" style="display:none;">
+				<p style="color: black; font-size:15px; width: 50%; margin-left: 32px; display: inline-block;">Selected For an interview?</p>
+				<p style="color: red; font-size:15px; width:37.5%;  display: inline-block;">This field is Required</p>
+				<a href="#questhree"><img src="eye.png" alt="eyeimage" width="6px" height="4px"></a>
+				<hr>
+			</div>
+			<div id="quesThreeTwoDate" style="display:none;">
+				<p style="color: black; font-size:15px; width: 25%; margin-left: 32px; display: inline-block; ">Date of interview?</p>
+				<p style="color: red; font-size:14px; width:62%;  display: inline-block;">Please select a Date/Time that is MM/DD/YYYY/hh.mm A format</p>
+				<a href="#questhree"><img src="eye.png" alt="eyeimage" width="6px" height="4px"></a>
+				<hr>
+			</div>
+			<div id="quesThreeThree" style="display:none;">
+				<p style="color: black; font-size:15px; width: 50%; margin-left: 32px; display: inline-block;">Received an Offer?</p>
+				<p style="color: red; font-size:15px; width:37.5%; display: inline-block;">This field is Required</p>
+				<a href="#questhree"><img src="eye.png" alt="eyeimage" width="6px" height="4px"></a>
+				<hr>
+			</div>
+			<div id="quesThreeThreeDate" style="display:none;">
+				<p style="color: black; font-size:15px; width: 25%; margin-left: 32px; display: inline-block; ">Date of Offer?</p>
+				<p style="color: red; font-size:14px; width:62%;  display: inline-block;">Please select a Date/Time that is MM/DD/YYYY/hh.mm A format</p>
+				<a href="#questhree"><img src="eye.png" alt="eyeimage" width="6px" height="4px"></a>
+				<hr>
+			</div>
+			<div id="quesThreeFour" style="display:none;">
+				<p style="color: black; font-size:15px; width: 50%; margin-left: 32px; display: inline-block;">Joined?</p>
+				<p style="color: red; font-size:15px; width:37.5%;  display: inline-block;">This field is Required</p>
+				<a href="#questhree"><img src="eye.png" alt="eyeimage" width="6px" height="4px"></a>
+				<hr>
+			</div>
+			<div id="quesThreeFourDate" style="display:none;">
+				<p style="color: black; font-size:15px; width: 25%; margin-left: 32px; display: inline-block; ">Date of Joining</p>
+				<p style="color: red; font-size:14px; width:62%;  display: inline-block;">Please select a Date/Time that is MM/DD/YYYY/hh.mm A format</p>
+				<a href="#questhree"><img src="eye.png" alt="eyeimage" width="28px" height="28px"></a>
+				<hr>
+
+			</div>
+		</div>
+	</div> 
+	<script src="sunil2.js"></script>
+</body>
+</html>
